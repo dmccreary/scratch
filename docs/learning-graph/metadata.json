@@ -1,0 +1,10 @@
+{
+  "title": "Learning Computational Thinking with Scratch",
+  "description": "An elementary-school course (grades 3-5) that uses Scratch's drag-and-drop blocks to teach computational thinking - decomposition, pattern recognition, abstraction, and algorithm design - through turtle-graphics-style drawing, loops, variables, conditionals, and custom-block abstraction, building conceptual readiness for a later transition to Python's turtle module.",
+  "creator": "Dan McCreary",
+  "date": "2026-09-08",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

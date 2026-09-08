@@ -1,0 +1,2182 @@
+{
+  "metadata": {
+    "title": "Learning Computational Thinking with Scratch",
+    "description": "An elementary-school course (grades 3-5) that uses Scratch's drag-and-drop blocks to teach computational thinking - decomposition, pattern recognition, abstraction, and algorithm design - through turtle-graphics-style drawing, loops, variables, conditionals, and custom-block abstraction, building conceptual readiness for a later transition to Python's turtle module.",
+    "creator": "Dan McCreary",
+    "date": "2026-09-08",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "CTFD": {
+      "classifierName": "Computational Thinking Foundations",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "INTF": {
+      "classifierName": "Scratch Interface & Environment",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SEQC": {
+      "classifierName": "Sequencing & Scripts",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MOTN": {
+      "classifierName": "Motion & Coordinates",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DRAW": {
+      "classifierName": "Turtle-Graphics Drawing",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LOOP": {
+      "classifierName": "Loops & Repetition",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "VARD": {
+      "classifierName": "Variables & Data",
+      "color": "Khaki",
+      "font": {
+        "color": "black"
+      }
+    },
+    "COND": {
+      "classifierName": "Conditionals & Logic",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ABST": {
+      "classifierName": "Custom Blocks & Abstraction",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PARM": {
+      "classifierName": "Parameters & Generalization",
+      "color": "LightSkyBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "EVNT": {
+      "classifierName": "Events & Interactivity",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "DBUG": {
+      "classifierName": "Debugging & Testing",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BRDG": {
+      "classifierName": "Python & Turtle Bridge",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Computational Thinking",
+      "group": "CTFD",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Decomposition",
+      "group": "CTFD",
+      "shape": "box"
+    },
+    {
+      "id": 3,
+      "label": "Pattern Recognition",
+      "group": "CTFD",
+      "shape": "box"
+    },
+    {
+      "id": 4,
+      "label": "Abstraction",
+      "group": "CTFD",
+      "shape": "box"
+    },
+    {
+      "id": 5,
+      "label": "Algorithm Design",
+      "group": "CTFD"
+    },
+    {
+      "id": 6,
+      "label": "Algorithm",
+      "group": "CTFD"
+    },
+    {
+      "id": 7,
+      "label": "Problem Solving",
+      "group": "CTFD"
+    },
+    {
+      "id": 8,
+      "label": "Step-By-Step Thinking",
+      "group": "CTFD"
+    },
+    {
+      "id": 9,
+      "label": "Precise Instructions",
+      "group": "CTFD"
+    },
+    {
+      "id": 10,
+      "label": "Ambiguity In Instructions",
+      "group": "CTFD"
+    },
+    {
+      "id": 11,
+      "label": "Generalization",
+      "group": "CTFD"
+    },
+    {
+      "id": 12,
+      "label": "Efficiency Of A Solution",
+      "group": "CTFD"
+    },
+    {
+      "id": 13,
+      "label": "Reusability",
+      "group": "CTFD"
+    },
+    {
+      "id": 14,
+      "label": "Computational Artifact",
+      "group": "CTFD"
+    },
+    {
+      "id": 15,
+      "label": "Iterative Design",
+      "group": "CTFD"
+    },
+    {
+      "id": 16,
+      "label": "Planning Before Coding",
+      "group": "CTFD"
+    },
+    {
+      "id": 17,
+      "label": "Scratch Editor",
+      "group": "INTF",
+      "shape": "box"
+    },
+    {
+      "id": 18,
+      "label": "Stage",
+      "group": "INTF"
+    },
+    {
+      "id": 19,
+      "label": "Sprite",
+      "group": "INTF"
+    },
+    {
+      "id": 20,
+      "label": "Sprite Costume",
+      "group": "INTF"
+    },
+    {
+      "id": 21,
+      "label": "Backdrop",
+      "group": "INTF"
+    },
+    {
+      "id": 22,
+      "label": "Block Palette",
+      "group": "INTF"
+    },
+    {
+      "id": 23,
+      "label": "Script Area",
+      "group": "INTF"
+    },
+    {
+      "id": 24,
+      "label": "Block Categories",
+      "group": "INTF"
+    },
+    {
+      "id": 25,
+      "label": "Motion Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 26,
+      "label": "Pen Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 27,
+      "label": "Control Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 28,
+      "label": "Operator Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 29,
+      "label": "Looks Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 30,
+      "label": "Sound Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 31,
+      "label": "Sensing Blocks",
+      "group": "INTF"
+    },
+    {
+      "id": 32,
+      "label": "Green Flag",
+      "group": "INTF"
+    },
+    {
+      "id": 33,
+      "label": "Script",
+      "group": "SEQC"
+    },
+    {
+      "id": 34,
+      "label": "Sequencing",
+      "group": "SEQC"
+    },
+    {
+      "id": 35,
+      "label": "Program Flow",
+      "group": "SEQC"
+    },
+    {
+      "id": 36,
+      "label": "Block Snapping",
+      "group": "SEQC"
+    },
+    {
+      "id": 37,
+      "label": "Stack Of Blocks",
+      "group": "SEQC"
+    },
+    {
+      "id": 38,
+      "label": "Order Of Operations",
+      "group": "SEQC"
+    },
+    {
+      "id": 39,
+      "label": "Starting A Script",
+      "group": "SEQC"
+    },
+    {
+      "id": 40,
+      "label": "Script Execution",
+      "group": "SEQC"
+    },
+    {
+      "id": 41,
+      "label": "Top-Down Reading",
+      "group": "SEQC"
+    },
+    {
+      "id": 42,
+      "label": "Single Script",
+      "group": "SEQC"
+    },
+    {
+      "id": 43,
+      "label": "Multiple Scripts",
+      "group": "SEQC"
+    },
+    {
+      "id": 44,
+      "label": "Script Coordination",
+      "group": "SEQC"
+    },
+    {
+      "id": 45,
+      "label": "Running A Script",
+      "group": "SEQC"
+    },
+    {
+      "id": 46,
+      "label": "Stopping A Script",
+      "group": "SEQC"
+    },
+    {
+      "id": 47,
+      "label": "X Coordinate",
+      "group": "MOTN"
+    },
+    {
+      "id": 48,
+      "label": "Y Coordinate",
+      "group": "MOTN"
+    },
+    {
+      "id": 49,
+      "label": "Coordinate Plane",
+      "group": "MOTN"
+    },
+    {
+      "id": 50,
+      "label": "Origin Point",
+      "group": "MOTN"
+    },
+    {
+      "id": 51,
+      "label": "Sprite Heading",
+      "group": "MOTN"
+    },
+    {
+      "id": 52,
+      "label": "Degrees Of Turn",
+      "group": "MOTN"
+    },
+    {
+      "id": 53,
+      "label": "Turn Right Block",
+      "group": "MOTN"
+    },
+    {
+      "id": 54,
+      "label": "Turn Left Block",
+      "group": "MOTN"
+    },
+    {
+      "id": 55,
+      "label": "Move Steps Block",
+      "group": "MOTN"
+    },
+    {
+      "id": 56,
+      "label": "Point In Direction",
+      "group": "MOTN"
+    },
+    {
+      "id": 57,
+      "label": "Go To XY Block",
+      "group": "MOTN"
+    },
+    {
+      "id": 58,
+      "label": "Glide Block",
+      "group": "MOTN"
+    },
+    {
+      "id": 59,
+      "label": "Absolute Position",
+      "group": "MOTN"
+    },
+    {
+      "id": 60,
+      "label": "Relative Movement",
+      "group": "MOTN"
+    },
+    {
+      "id": 61,
+      "label": "Facing Direction",
+      "group": "MOTN"
+    },
+    {
+      "id": 62,
+      "label": "Rotation Style",
+      "group": "MOTN"
+    },
+    {
+      "id": 63,
+      "label": "Pen Down Block",
+      "group": "DRAW"
+    },
+    {
+      "id": 64,
+      "label": "Pen Up Block",
+      "group": "DRAW"
+    },
+    {
+      "id": 65,
+      "label": "Pen Trail",
+      "group": "DRAW"
+    },
+    {
+      "id": 66,
+      "label": "Drawing A Line",
+      "group": "DRAW"
+    },
+    {
+      "id": 67,
+      "label": "Drawing An Angle",
+      "group": "DRAW"
+    },
+    {
+      "id": 68,
+      "label": "Drawing A Polygon",
+      "group": "DRAW"
+    },
+    {
+      "id": 69,
+      "label": "Drawing A Triangle",
+      "group": "DRAW"
+    },
+    {
+      "id": 70,
+      "label": "Drawing A Square",
+      "group": "DRAW"
+    },
+    {
+      "id": 71,
+      "label": "Drawing A Star",
+      "group": "DRAW"
+    },
+    {
+      "id": 72,
+      "label": "Drawing A Spiral",
+      "group": "DRAW"
+    },
+    {
+      "id": 73,
+      "label": "Regular Polygon",
+      "group": "DRAW"
+    },
+    {
+      "id": 74,
+      "label": "Interior Angle",
+      "group": "DRAW"
+    },
+    {
+      "id": 75,
+      "label": "Exterior Angle",
+      "group": "DRAW"
+    },
+    {
+      "id": 76,
+      "label": "Pen Color",
+      "group": "DRAW"
+    },
+    {
+      "id": 77,
+      "label": "Pen Size",
+      "group": "DRAW"
+    },
+    {
+      "id": 78,
+      "label": "Stamp Block",
+      "group": "DRAW"
+    },
+    {
+      "id": 79,
+      "label": "Clear Block",
+      "group": "DRAW"
+    },
+    {
+      "id": 80,
+      "label": "Generative Art Pattern",
+      "group": "DRAW"
+    },
+    {
+      "id": 81,
+      "label": "Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 82,
+      "label": "Repeat Block",
+      "group": "LOOP"
+    },
+    {
+      "id": 83,
+      "label": "Fixed-Count Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 84,
+      "label": "Repeat Until Block",
+      "group": "LOOP"
+    },
+    {
+      "id": 85,
+      "label": "Condition-Based Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 86,
+      "label": "Forever Block",
+      "group": "LOOP"
+    },
+    {
+      "id": 87,
+      "label": "Loop Counter",
+      "group": "LOOP"
+    },
+    {
+      "id": 88,
+      "label": "Nested Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 89,
+      "label": "Loop Body",
+      "group": "LOOP"
+    },
+    {
+      "id": 90,
+      "label": "Exiting A Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 91,
+      "label": "Repetition Pattern",
+      "group": "LOOP"
+    },
+    {
+      "id": 92,
+      "label": "Loop Efficiency",
+      "group": "LOOP"
+    },
+    {
+      "id": 93,
+      "label": "Infinite Loop",
+      "group": "LOOP"
+    },
+    {
+      "id": 94,
+      "label": "Loop Iteration",
+      "group": "LOOP"
+    },
+    {
+      "id": 95,
+      "label": "Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 96,
+      "label": "Creating A Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 97,
+      "label": "Naming A Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 98,
+      "label": "Setting A Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 99,
+      "label": "Changing A Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 100,
+      "label": "Variable Value",
+      "group": "VARD"
+    },
+    {
+      "id": 101,
+      "label": "Side Length Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 102,
+      "label": "Angle Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 103,
+      "label": "Number Of Sides Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 104,
+      "label": "Variable Scope",
+      "group": "VARD"
+    },
+    {
+      "id": 105,
+      "label": "Global Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 106,
+      "label": "Local Variable",
+      "group": "VARD"
+    },
+    {
+      "id": 107,
+      "label": "Data Type",
+      "group": "VARD"
+    },
+    {
+      "id": 108,
+      "label": "Number Data",
+      "group": "VARD"
+    },
+    {
+      "id": 109,
+      "label": "String Data",
+      "group": "VARD"
+    },
+    {
+      "id": 110,
+      "label": "List Concept",
+      "group": "VARD"
+    },
+    {
+      "id": 111,
+      "label": "Conditional Statement",
+      "group": "COND"
+    },
+    {
+      "id": 112,
+      "label": "If Block",
+      "group": "COND"
+    },
+    {
+      "id": 113,
+      "label": "If-Else Block",
+      "group": "COND"
+    },
+    {
+      "id": 114,
+      "label": "Boolean Expression",
+      "group": "COND"
+    },
+    {
+      "id": 115,
+      "label": "Comparison Operator",
+      "group": "COND"
+    },
+    {
+      "id": 116,
+      "label": "Logical And",
+      "group": "COND"
+    },
+    {
+      "id": 117,
+      "label": "Logical Or",
+      "group": "COND"
+    },
+    {
+      "id": 118,
+      "label": "Logical Not",
+      "group": "COND"
+    },
+    {
+      "id": 119,
+      "label": "Decision Logic",
+      "group": "COND"
+    },
+    {
+      "id": 120,
+      "label": "Condition Testing",
+      "group": "COND"
+    },
+    {
+      "id": 121,
+      "label": "True Or False Value",
+      "group": "COND"
+    },
+    {
+      "id": 122,
+      "label": "Nested Conditional",
+      "group": "COND"
+    },
+    {
+      "id": 123,
+      "label": "Branching Logic",
+      "group": "COND"
+    },
+    {
+      "id": 124,
+      "label": "Wait Until Block",
+      "group": "COND"
+    },
+    {
+      "id": 125,
+      "label": "Custom Block",
+      "group": "ABST"
+    },
+    {
+      "id": 126,
+      "label": "Make A Block Feature",
+      "group": "ABST"
+    },
+    {
+      "id": 127,
+      "label": "Block Definition",
+      "group": "ABST"
+    },
+    {
+      "id": 128,
+      "label": "Block Name",
+      "group": "ABST"
+    },
+    {
+      "id": 129,
+      "label": "Procedural Abstraction",
+      "group": "ABST"
+    },
+    {
+      "id": 130,
+      "label": "Function Concept",
+      "group": "ABST"
+    },
+    {
+      "id": 131,
+      "label": "Procedure Concept",
+      "group": "ABST"
+    },
+    {
+      "id": 132,
+      "label": "Reusable Procedure",
+      "group": "ABST"
+    },
+    {
+      "id": 133,
+      "label": "Calling A Block",
+      "group": "ABST"
+    },
+    {
+      "id": 134,
+      "label": "Block Body",
+      "group": "ABST"
+    },
+    {
+      "id": 135,
+      "label": "Single Responsibility",
+      "group": "ABST"
+    },
+    {
+      "id": 136,
+      "label": "Well-Designed Block",
+      "group": "ABST"
+    },
+    {
+      "id": 137,
+      "label": "Draw Square Block",
+      "group": "ABST"
+    },
+    {
+      "id": 138,
+      "label": "Draw Polygon Block",
+      "group": "ABST"
+    },
+    {
+      "id": 139,
+      "label": "Block Library",
+      "group": "ABST"
+    },
+    {
+      "id": 140,
+      "label": "Composing Blocks",
+      "group": "ABST"
+    },
+    {
+      "id": 141,
+      "label": "Nested Custom Blocks",
+      "group": "ABST"
+    },
+    {
+      "id": 142,
+      "label": "Refactoring A Script",
+      "group": "ABST"
+    },
+    {
+      "id": 143,
+      "label": "Parameter",
+      "group": "PARM"
+    },
+    {
+      "id": 144,
+      "label": "Adding A Parameter",
+      "group": "PARM"
+    },
+    {
+      "id": 145,
+      "label": "Parameter Type",
+      "group": "PARM"
+    },
+    {
+      "id": 146,
+      "label": "Number Parameter",
+      "group": "PARM"
+    },
+    {
+      "id": 147,
+      "label": "Text Parameter",
+      "group": "PARM"
+    },
+    {
+      "id": 148,
+      "label": "Boolean Parameter",
+      "group": "PARM"
+    },
+    {
+      "id": 149,
+      "label": "Generalizing A Procedure",
+      "group": "PARM"
+    },
+    {
+      "id": 150,
+      "label": "Default Value",
+      "group": "PARM"
+    },
+    {
+      "id": 151,
+      "label": "Argument Value",
+      "group": "PARM"
+    },
+    {
+      "id": 152,
+      "label": "Multiple Parameters",
+      "group": "PARM"
+    },
+    {
+      "id": 153,
+      "label": "Event",
+      "group": "EVNT"
+    },
+    {
+      "id": 154,
+      "label": "Event Block",
+      "group": "EVNT"
+    },
+    {
+      "id": 155,
+      "label": "When Green Flag Clicked",
+      "group": "EVNT"
+    },
+    {
+      "id": 156,
+      "label": "When Key Pressed",
+      "group": "EVNT"
+    },
+    {
+      "id": 157,
+      "label": "When Sprite Clicked",
+      "group": "EVNT"
+    },
+    {
+      "id": 158,
+      "label": "Broadcast Block",
+      "group": "EVNT"
+    },
+    {
+      "id": 159,
+      "label": "Receive Message Block",
+      "group": "EVNT"
+    },
+    {
+      "id": 160,
+      "label": "Mouse Input",
+      "group": "EVNT"
+    },
+    {
+      "id": 161,
+      "label": "Keyboard Input",
+      "group": "EVNT"
+    },
+    {
+      "id": 162,
+      "label": "Event-Driven Program",
+      "group": "EVNT"
+    },
+    {
+      "id": 163,
+      "label": "Triggering A Script",
+      "group": "EVNT"
+    },
+    {
+      "id": 164,
+      "label": "User Interaction",
+      "group": "EVNT"
+    },
+    {
+      "id": 165,
+      "label": "Input Handling",
+      "group": "EVNT"
+    },
+    {
+      "id": 166,
+      "label": "Sensing User Input",
+      "group": "EVNT"
+    },
+    {
+      "id": 167,
+      "label": "Debugging",
+      "group": "DBUG"
+    },
+    {
+      "id": 168,
+      "label": "Bug",
+      "group": "DBUG"
+    },
+    {
+      "id": 169,
+      "label": "Reading A Script",
+      "group": "DBUG"
+    },
+    {
+      "id": 170,
+      "label": "Isolating An Error",
+      "group": "DBUG"
+    },
+    {
+      "id": 171,
+      "label": "Testing Incrementally",
+      "group": "DBUG"
+    },
+    {
+      "id": 172,
+      "label": "Trace A Script",
+      "group": "DBUG"
+    },
+    {
+      "id": 173,
+      "label": "Predicting Output",
+      "group": "DBUG"
+    },
+    {
+      "id": 174,
+      "label": "Expected Behavior",
+      "group": "DBUG"
+    },
+    {
+      "id": 175,
+      "label": "Actual Behavior",
+      "group": "DBUG"
+    },
+    {
+      "id": 176,
+      "label": "Error Diagnosis",
+      "group": "DBUG"
+    },
+    {
+      "id": 177,
+      "label": "Logical Error",
+      "group": "DBUG"
+    },
+    {
+      "id": 178,
+      "label": "Syntax Mismatch",
+      "group": "DBUG"
+    },
+    {
+      "id": 179,
+      "label": "Test Case",
+      "group": "DBUG"
+    },
+    {
+      "id": 180,
+      "label": "Code Review",
+      "group": "DBUG"
+    },
+    {
+      "id": 181,
+      "label": "Python Language",
+      "group": "BRDG"
+    },
+    {
+      "id": 182,
+      "label": "Text-Based Programming",
+      "group": "BRDG"
+    },
+    {
+      "id": 183,
+      "label": "Turtle Module",
+      "group": "BRDG"
+    },
+    {
+      "id": 184,
+      "label": "Forward Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 185,
+      "label": "Backward Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 186,
+      "label": "Left Turn Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 187,
+      "label": "Right Turn Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 188,
+      "label": "Pen Up Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 189,
+      "label": "Pen Down Function",
+      "group": "BRDG"
+    },
+    {
+      "id": 190,
+      "label": "Block-To-Text Mapping",
+      "group": "BRDG"
+    },
+    {
+      "id": 191,
+      "label": "Syntax Versus Concept",
+      "group": "BRDG"
+    },
+    {
+      "id": 192,
+      "label": "Typing Code",
+      "group": "BRDG"
+    },
+    {
+      "id": 193,
+      "label": "Indentation Concept",
+      "group": "BRDG"
+    },
+    {
+      "id": 194,
+      "label": "Function Call Syntax",
+      "group": "BRDG"
+    },
+    {
+      "id": 195,
+      "label": "Conceptual Bridge",
+      "group": "BRDG"
+    },
+    {
+      "id": 196,
+      "label": "Transition To Python",
+      "group": "BRDG"
+    },
+    {
+      "id": 197,
+      "label": "Capstone Project",
+      "group": "CTFD"
+    },
+    {
+      "id": 198,
+      "label": "Algorithm Flowchart",
+      "group": "CTFD"
+    },
+    {
+      "id": 199,
+      "label": "Pseudocode",
+      "group": "CTFD"
+    },
+    {
+      "id": 200,
+      "label": "Project Presentation",
+      "group": "CTFD"
+    }
+  ],
+  "edges": [
+    {
+      "from": 5,
+      "to": 1
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 6,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 1
+    },
+    {
+      "from": 8,
+      "to": 6
+    },
+    {
+      "from": 9,
+      "to": 6
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 4
+    },
+    {
+      "from": 12,
+      "to": 6
+    },
+    {
+      "from": 13,
+      "to": 4
+    },
+    {
+      "from": 14,
+      "to": 1
+    },
+    {
+      "from": 15,
+      "to": 12
+    },
+    {
+      "from": 16,
+      "to": 5
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 17
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 18
+    },
+    {
+      "from": 22,
+      "to": 17
+    },
+    {
+      "from": 23,
+      "to": 17
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 27,
+      "to": 24
+    },
+    {
+      "from": 28,
+      "to": 24
+    },
+    {
+      "from": 29,
+      "to": 24
+    },
+    {
+      "from": 30,
+      "to": 24
+    },
+    {
+      "from": 31,
+      "to": 24
+    },
+    {
+      "from": 32,
+      "to": 17
+    },
+    {
+      "from": 33,
+      "to": 23
+    },
+    {
+      "from": 34,
+      "to": 1
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 34,
+      "to": 8
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 33
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 34
+    },
+    {
+      "from": 39,
+      "to": 32
+    },
+    {
+      "from": 39,
+      "to": 33
+    },
+    {
+      "from": 40,
+      "to": 39
+    },
+    {
+      "from": 41,
+      "to": 34
+    },
+    {
+      "from": 42,
+      "to": 37
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 40
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 19
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 19
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 25
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 25
+    },
+    {
+      "from": 54,
+      "to": 52
+    },
+    {
+      "from": 55,
+      "to": 25
+    },
+    {
+      "from": 55,
+      "to": 49
+    },
+    {
+      "from": 56,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 49
+    },
+    {
+      "from": 57,
+      "to": 25
+    },
+    {
+      "from": 58,
+      "to": 57
+    },
+    {
+      "from": 59,
+      "to": 49
+    },
+    {
+      "from": 59,
+      "to": 50
+    },
+    {
+      "from": 60,
+      "to": 55
+    },
+    {
+      "from": 61,
+      "to": 51
+    },
+    {
+      "from": 62,
+      "to": 51
+    },
+    {
+      "from": 62,
+      "to": 56
+    },
+    {
+      "from": 63,
+      "to": 26
+    },
+    {
+      "from": 64,
+      "to": 26
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 66,
+      "to": 63
+    },
+    {
+      "from": 66,
+      "to": 55
+    },
+    {
+      "from": 66,
+      "to": 60
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 67,
+      "to": 52
+    },
+    {
+      "from": 67,
+      "to": 61
+    },
+    {
+      "from": 68,
+      "to": 67
+    },
+    {
+      "from": 68,
+      "to": 83
+    },
+    {
+      "from": 68,
+      "to": 2
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 69,
+      "to": 83
+    },
+    {
+      "from": 70,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 83
+    },
+    {
+      "from": 71,
+      "to": 68
+    },
+    {
+      "from": 71,
+      "to": 83
+    },
+    {
+      "from": 72,
+      "to": 68
+    },
+    {
+      "from": 72,
+      "to": 85
+    },
+    {
+      "from": 73,
+      "to": 68
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 73
+    },
+    {
+      "from": 76,
+      "to": 26
+    },
+    {
+      "from": 77,
+      "to": 26
+    },
+    {
+      "from": 78,
+      "to": 26
+    },
+    {
+      "from": 79,
+      "to": 26
+    },
+    {
+      "from": 80,
+      "to": 72
+    },
+    {
+      "from": 80,
+      "to": 76
+    },
+    {
+      "from": 80,
+      "to": 58
+    },
+    {
+      "from": 81,
+      "to": 34
+    },
+    {
+      "from": 82,
+      "to": 27
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 27
+    },
+    {
+      "from": 84,
+      "to": 81
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 86,
+      "to": 81
+    },
+    {
+      "from": 86,
+      "to": 27
+    },
+    {
+      "from": 87,
+      "to": 83
+    },
+    {
+      "from": 88,
+      "to": 83
+    },
+    {
+      "from": 88,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 81
+    },
+    {
+      "from": 90,
+      "to": 85
+    },
+    {
+      "from": 91,
+      "to": 3
+    },
+    {
+      "from": 91,
+      "to": 81
+    },
+    {
+      "from": 92,
+      "to": 12
+    },
+    {
+      "from": 92,
+      "to": 81
+    },
+    {
+      "from": 93,
+      "to": 86
+    },
+    {
+      "from": 93,
+      "to": 46
+    },
+    {
+      "from": 94,
+      "to": 81
+    },
+    {
+      "from": 95,
+      "to": 1
+    },
+    {
+      "from": 96,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 96
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 96
+    },
+    {
+      "from": 101,
+      "to": 96
+    },
+    {
+      "from": 101,
+      "to": 68
+    },
+    {
+      "from": 102,
+      "to": 96
+    },
+    {
+      "from": 102,
+      "to": 67
+    },
+    {
+      "from": 103,
+      "to": 96
+    },
+    {
+      "from": 103,
+      "to": 73
+    },
+    {
+      "from": 104,
+      "to": 96
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 106,
+      "to": 104
+    },
+    {
+      "from": 107,
+      "to": 96
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 107
+    },
+    {
+      "from": 110,
+      "to": 107
+    },
+    {
+      "from": 111,
+      "to": 34
+    },
+    {
+      "from": 111,
+      "to": 38
+    },
+    {
+      "from": 112,
+      "to": 27
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 28
+    },
+    {
+      "from": 115,
+      "to": 28
+    },
+    {
+      "from": 116,
+      "to": 114
+    },
+    {
+      "from": 117,
+      "to": 114
+    },
+    {
+      "from": 118,
+      "to": 114
+    },
+    {
+      "from": 119,
+      "to": 111
+    },
+    {
+      "from": 120,
+      "to": 111
+    },
+    {
+      "from": 121,
+      "to": 114
+    },
+    {
+      "from": 122,
+      "to": 113
+    },
+    {
+      "from": 123,
+      "to": 119
+    },
+    {
+      "from": 124,
+      "to": 84
+    },
+    {
+      "from": 124,
+      "to": 111
+    },
+    {
+      "from": 125,
+      "to": 4
+    },
+    {
+      "from": 125,
+      "to": 33
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 4
+    },
+    {
+      "from": 129,
+      "to": 125
+    },
+    {
+      "from": 129,
+      "to": 2
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 129
+    },
+    {
+      "from": 132,
+      "to": 13
+    },
+    {
+      "from": 132,
+      "to": 130
+    },
+    {
+      "from": 133,
+      "to": 127
+    },
+    {
+      "from": 134,
+      "to": 127
+    },
+    {
+      "from": 135,
+      "to": 129
+    },
+    {
+      "from": 136,
+      "to": 135
+    },
+    {
+      "from": 137,
+      "to": 70
+    },
+    {
+      "from": 137,
+      "to": 126
+    },
+    {
+      "from": 138,
+      "to": 68
+    },
+    {
+      "from": 138,
+      "to": 126
+    },
+    {
+      "from": 139,
+      "to": 132
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 133
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 15
+    },
+    {
+      "from": 142,
+      "to": 129
+    },
+    {
+      "from": 143,
+      "to": 127
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 146,
+      "to": 108
+    },
+    {
+      "from": 147,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 109
+    },
+    {
+      "from": 148,
+      "to": 145
+    },
+    {
+      "from": 148,
+      "to": 114
+    },
+    {
+      "from": 149,
+      "to": 11
+    },
+    {
+      "from": 149,
+      "to": 144
+    },
+    {
+      "from": 150,
+      "to": 143
+    },
+    {
+      "from": 151,
+      "to": 143
+    },
+    {
+      "from": 152,
+      "to": 144
+    },
+    {
+      "from": 153,
+      "to": 24
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 154,
+      "to": 27
+    },
+    {
+      "from": 155,
+      "to": 32
+    },
+    {
+      "from": 155,
+      "to": 154
+    },
+    {
+      "from": 156,
+      "to": 154
+    },
+    {
+      "from": 157,
+      "to": 154
+    },
+    {
+      "from": 158,
+      "to": 154
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 153
+    },
+    {
+      "from": 161,
+      "to": 153
+    },
+    {
+      "from": 162,
+      "to": 153
+    },
+    {
+      "from": 162,
+      "to": 34
+    },
+    {
+      "from": 162,
+      "to": 44
+    },
+    {
+      "from": 163,
+      "to": 155
+    },
+    {
+      "from": 164,
+      "to": 160
+    },
+    {
+      "from": 164,
+      "to": 161
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 166,
+      "to": 31
+    },
+    {
+      "from": 166,
+      "to": 164
+    },
+    {
+      "from": 167,
+      "to": 1
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 169,
+      "to": 34
+    },
+    {
+      "from": 170,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 171,
+      "to": 167
+    },
+    {
+      "from": 172,
+      "to": 169
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 173
+    },
+    {
+      "from": 176,
+      "to": 170
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 10
+    },
+    {
+      "from": 179,
+      "to": 171
+    },
+    {
+      "from": 180,
+      "to": 169
+    },
+    {
+      "from": 180,
+      "to": 136
+    },
+    {
+      "from": 180,
+      "to": 41
+    },
+    {
+      "from": 181,
+      "to": 6
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 68
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 184,
+      "to": 55
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 55
+    },
+    {
+      "from": 186,
+      "to": 183
+    },
+    {
+      "from": 186,
+      "to": 54
+    },
+    {
+      "from": 187,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 53
+    },
+    {
+      "from": 188,
+      "to": 183
+    },
+    {
+      "from": 188,
+      "to": 64
+    },
+    {
+      "from": 189,
+      "to": 183
+    },
+    {
+      "from": 189,
+      "to": 63
+    },
+    {
+      "from": 190,
+      "to": 182
+    },
+    {
+      "from": 190,
+      "to": 129
+    },
+    {
+      "from": 191,
+      "to": 190
+    },
+    {
+      "from": 192,
+      "to": 182
+    },
+    {
+      "from": 193,
+      "to": 182
+    },
+    {
+      "from": 193,
+      "to": 82
+    },
+    {
+      "from": 194,
+      "to": 182
+    },
+    {
+      "from": 194,
+      "to": 130
+    },
+    {
+      "from": 195,
+      "to": 190
+    },
+    {
+      "from": 196,
+      "to": 195
+    },
+    {
+      "from": 197,
+      "to": 140
+    },
+    {
+      "from": 197,
+      "to": 196
+    },
+    {
+      "from": 197,
+      "to": 7
+    },
+    {
+      "from": 197,
+      "to": 16
+    },
+    {
+      "from": 198,
+      "to": 6
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 200,
+      "to": 197
+    },
+    {
+      "from": 200,
+      "to": 14
+    }
+  ]
+}

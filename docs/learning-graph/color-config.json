@@ -1,0 +1,15 @@
+{
+  "CTFD": "SteelBlue",
+  "INTF": "DarkSlateBlue",
+  "SEQC": "DarkGreen",
+  "MOTN": "LimeGreen",
+  "DRAW": "Gold",
+  "LOOP": "DarkGoldenrod",
+  "VARD": "Khaki",
+  "COND": "Teal",
+  "ABST": "DodgerBlue",
+  "PARM": "LightSkyBlue",
+  "EVNT": "Crimson",
+  "DBUG": "DarkRed",
+  "BRDG": "MediumPurple"
+}

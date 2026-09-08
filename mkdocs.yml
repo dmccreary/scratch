@@ -1,6 +1,7 @@
 site_name: 'CoderDojo TC Scratch'
 nav:
   - Shared Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
+  - Course Description: course-description.md
   - Intro:
     - Getting Started: intro/01-getting-started.md
     - Summary of Labs: labs.md
@@ -11,6 +12,28 @@ nav:
     - Functions: intro/06-functions.md
     - Functions With Parameters: intro/07-functions-with-parameters.md
   - Presentations: presentations.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Computational Thinking Foundations: chapters/01-computational-thinking-foundations/index.md
+    - 2. The Scratch Interface & Environment: chapters/02-scratch-interface-environment/index.md
+    - 3. Sequencing & Scripts: chapters/03-sequencing-scripts/index.md
+    - 4. Motion & Coordinates: chapters/04-motion-coordinates/index.md
+    - 5. Loops & Repetition: chapters/05-loops-repetition/index.md
+    - 6. Turtle-Graphics Drawing: chapters/06-turtle-graphics-drawing/index.md
+    - 7. Variables & Data: chapters/07-variables-data/index.md
+    - 8. Conditionals & Logic: chapters/08-conditionals-logic/index.md
+    - 9. Custom Blocks & Abstraction: chapters/09-custom-blocks-abstraction/index.md
+    - 10. Parameters & Generalization: chapters/10-parameters-generalization/index.md
+    - 11. Events & Interactivity: chapters/11-events-interactivity/index.md
+    - 12. Debugging & Testing: chapters/12-debugging-testing/index.md
+    - 13. The Python & Turtle Bridge, and Capstone Project: chapters/13-python-turtle-bridge-capstone/index.md
   - Contact: contact.md
 
 site_description: 'Resources for teaching Scratch to CoderDojo Twin Cities students.'
