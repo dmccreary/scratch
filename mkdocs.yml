@@ -15,8 +15,9 @@ nav:
 
 site_description: 'Resources for teaching Scratch to CoderDojo Twin Cities students.'
 site_author: 'Dan McCreary'
+site_url: 'https://dmccreary.github.io/scratch/'
 repo_name: 'Scratch'
-repo_url: 'https://github.com/CoderDojoTC/scratch'
+repo_url: 'https://github.com/dmccreary/scratch'
 edit_uri: 'blob/master/docs'
 theme:
   name: material
