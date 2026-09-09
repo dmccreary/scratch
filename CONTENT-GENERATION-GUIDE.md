@@ -14,6 +14,41 @@ Everything is dragged and clicked, never typed. Keep sentences short, define
 every new word the first time it appears, and never assume prior programming
 experience.
 
+## Scratchblocks Notation
+
+Scratchblocks is a human-readable notation for describing a scratch program.
+It is widely used and supported in the Scratch community and we use it extensively
+in this course.
+
+The most important feature of this textbook is a sophisticated program that will
+generate images of the scratch block diagrams directly in any Markdown file that contains scratchblocks
+example code.
+The user must surround the Scratchblocs code with HTML `pre` tags and the begin tag must have a `blocks` class.
+
+```html
+<pre class="blocks">
+  ...scratchblocks code here...
+</pre>
+```
+
+## Example of Inline Scratchblocks
+
+The syntax is like this:
+
+<pre class="blocks">
+when green flag clicked
+erase all
+set pen size to (5)
+pen down
+move (100) steps
+wait (1) seconds
+turn right (90) degrees
+</pre>
+
+Use this format whenever you need to generate a sample scratch program.
+
+See the complete `scratch-lab-generator` skill for generating full Labs here: `@skills/scratch-lab-generator` for examples.  Note that this is implemented by both javascript and CSS support.
+
 ## Learning Mascot: Cody the CoderDojo Turtle
 
 ### Mascot File Index

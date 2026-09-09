@@ -8,26 +8,28 @@ This final chapter maps Scratch blocks directly onto Python's turtle module func
 
 This chapter covers the following 20 concepts from the learning graph:
 
-1. Python Language
-2. Text-Based Programming
-3. Turtle Module
-4. Forward Function
-5. Backward Function
-6. Left Turn Function
-7. Right Turn Function
-8. Pen Up Function
-9. Pen Down Function
-10. Block-To-Text Mapping
-11. Syntax Versus Concept
-12. Typing Code
-13. Indentation Concept
-14. Function Call Syntax
-15. Conceptual Bridge
-16. Transition To Python
-17. Capstone Project
-18. Algorithm Flowchart
-19. Pseudocode
-20. Project Presentation
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Python Language | 18 |
+| Text-Based Programming | 10 |
+| Turtle Module | 7 |
+| Forward Function | 1 |
+| Backward Function | 1 |
+| Left Turn Function | 1 |
+| Right Turn Function | 1 |
+| Pen Up Function | 1 |
+| Pen Down Function | 1 |
+| Block-To-Text Mapping | 6 |
+| Syntax Versus Concept | 1 |
+| Typing Code | 1 |
+| Indentation Concept | 1 |
+| Function Call Syntax | 1 |
+| Conceptual Bridge | 4 |
+| Transition To Python | 3 |
+| Capstone Project | 2 |
+| Algorithm Flowchart | 2 |
+| Pseudocode | 1 |
+| Project Presentation | 1 |
 
 ## Prerequisites
 

@@ -8,24 +8,26 @@ This chapter is the heart of the course, combining pen blocks and motion blocks 
 
 This chapter covers the following 18 concepts from the learning graph:
 
-1. Pen Down Block
-2. Pen Up Block
-3. Pen Trail
-4. Drawing A Line
-5. Drawing An Angle
-6. Drawing A Polygon
-7. Drawing A Triangle
-8. Drawing A Square
-9. Drawing A Star
-10. Drawing A Spiral
-11. Regular Polygon
-12. Interior Angle
-13. Exterior Angle
-14. Pen Color
-15. Pen Size
-16. Stamp Block
-17. Clear Block
-18. Generative Art Pattern
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Pen Down Block | 26 |
+| Pen Up Block | 2 |
+| Pen Trail | 1 |
+| Drawing A Line | 23 |
+| Drawing An Angle | 22 |
+| Drawing A Polygon | 20 |
+| Drawing A Triangle | 1 |
+| Drawing A Square | 2 |
+| Drawing A Star | 1 |
+| Drawing A Spiral | 2 |
+| Regular Polygon | 4 |
+| Interior Angle | 1 |
+| Exterior Angle | 1 |
+| Pen Color | 2 |
+| Pen Size | 1 |
+| Stamp Block | 1 |
+| Clear Block | 1 |
+| Generative Art Pattern | 1 |
 
 ## Prerequisites
 

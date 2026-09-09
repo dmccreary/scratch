@@ -8,22 +8,24 @@ This chapter orients students to the Scratch editor itself, including the stage,
 
 This chapter covers the following 16 concepts from the learning graph:
 
-1. Scratch Editor
-2. Stage
-3. Sprite
-4. Sprite Costume
-5. Backdrop
-6. Block Palette
-7. Script Area
-8. Block Categories
-9. Motion Blocks
-10. Pen Blocks
-11. Control Blocks
-12. Operator Blocks
-13. Looks Blocks
-14. Sound Blocks
-15. Sensing Blocks
-16. Green Flag
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Scratch Editor | 482 |
+| Stage | 2 |
+| Sprite | 172 |
+| Sprite Costume | 1 |
+| Backdrop | 1 |
+| Block Palette | 172 |
+| Script Area | 127 |
+| Block Categories | 171 |
+| Motion Blocks | 58 |
+| Pen Blocks | 34 |
+| Control Blocks | 49 |
+| Operator Blocks | 8 |
+| Looks Blocks | 1 |
+| Sound Blocks | 1 |
+| Sensing Blocks | 2 |
+| Green Flag | 8 |
 
 ## Prerequisites
 

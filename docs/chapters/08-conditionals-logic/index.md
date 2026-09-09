@@ -8,20 +8,22 @@ This chapter covers Boolean expressions, comparison operators, and the logical a
 
 This chapter covers the following 14 concepts from the learning graph:
 
-1. Conditional Statement
-2. If Block
-3. If-Else Block
-4. Boolean Expression
-5. Comparison Operator
-6. Logical And
-7. Logical Or
-8. Logical Not
-9. Decision Logic
-10. Condition Testing
-11. True Or False Value
-12. Nested Conditional
-13. Branching Logic
-14. Wait Until Block
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Conditional Statement | 8 |
+| If Block | 3 |
+| If-Else Block | 2 |
+| Boolean Expression | 6 |
+| Comparison Operator | 1 |
+| Logical And | 1 |
+| Logical Or | 1 |
+| Logical Not | 1 |
+| Decision Logic | 2 |
+| Condition Testing | 1 |
+| True Or False Value | 1 |
+| Nested Conditional | 1 |
+| Branching Logic | 1 |
+| Wait Until Block | 1 |
 
 ## Prerequisites
 

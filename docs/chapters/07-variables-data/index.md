@@ -8,22 +8,24 @@ This chapter shows how to create, name, set, and change variables such as side l
 
 This chapter covers the following 16 concepts from the learning graph:
 
-1. Variable
-2. Creating A Variable
-3. Naming A Variable
-4. Setting A Variable
-5. Changing A Variable
-6. Variable Value
-7. Side Length Variable
-8. Angle Variable
-9. Number Of Sides Variable
-10. Variable Scope
-11. Global Variable
-12. Local Variable
-13. Data Type
-14. Number Data
-15. String Data
-16. List Concept
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Variable | 18 |
+| Creating A Variable | 17 |
+| Naming A Variable | 1 |
+| Setting A Variable | 2 |
+| Changing A Variable | 1 |
+| Variable Value | 1 |
+| Side Length Variable | 1 |
+| Angle Variable | 1 |
+| Number Of Sides Variable | 1 |
+| Variable Scope | 3 |
+| Global Variable | 1 |
+| Local Variable | 1 |
+| Data Type | 6 |
+| Number Data | 2 |
+| String Data | 2 |
+| List Concept | 1 |
 
 ## Prerequisites
 

@@ -8,16 +8,18 @@ This chapter teaches students to add parameters, including number, text, and Boo
 
 This chapter covers the following 10 concepts from the learning graph:
 
-1. Parameter
-2. Adding A Parameter
-3. Parameter Type
-4. Number Parameter
-5. Text Parameter
-6. Boolean Parameter
-7. Generalizing A Procedure
-8. Default Value
-9. Argument Value
-10. Multiple Parameters
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Parameter | 10 |
+| Adding A Parameter | 3 |
+| Parameter Type | 4 |
+| Number Parameter | 1 |
+| Text Parameter | 1 |
+| Boolean Parameter | 1 |
+| Generalizing A Procedure | 1 |
+| Default Value | 1 |
+| Argument Value | 1 |
+| Multiple Parameters | 1 |
 
 ## Prerequisites
 

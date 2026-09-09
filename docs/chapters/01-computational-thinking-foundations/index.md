@@ -8,22 +8,24 @@ This chapter introduces the vocabulary of computational thinking, including deco
 
 This chapter covers the following 16 concepts from the learning graph:
 
-1. Computational Thinking
-2. Decomposition
-3. Pattern Recognition
-4. Abstraction
-5. Algorithm Design
-6. Algorithm
-7. Problem Solving
-8. Step-By-Step Thinking
-9. Precise Instructions
-10. Ambiguity In Instructions
-11. Generalization
-12. Efficiency Of A Solution
-13. Reusability
-14. Computational Artifact
-15. Iterative Design
-16. Planning Before Coding
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Computational Thinking | 215 |
+| Decomposition | 149 |
+| Pattern Recognition | 2 |
+| Abstraction | 69 |
+| Algorithm Design | 108 |
+| Algorithm | 104 |
+| Problem Solving | 3 |
+| Step-By-Step Thinking | 76 |
+| Precise Instructions | 3 |
+| Ambiguity In Instructions | 2 |
+| Generalization | 2 |
+| Efficiency Of A Solution | 4 |
+| Reusability | 7 |
+| Computational Artifact | 2 |
+| Iterative Design | 2 |
+| Planning Before Coding | 3 |
 
 ## Prerequisites
 

@@ -8,20 +8,22 @@ This chapter covers event blocks that trigger scripts, including when green flag
 
 This chapter covers the following 14 concepts from the learning graph:
 
-1. Event
-2. Event Block
-3. When Green Flag Clicked
-4. When Key Pressed
-5. When Sprite Clicked
-6. Broadcast Block
-7. Receive Message Block
-8. Mouse Input
-9. Keyboard Input
-10. Event-Driven Program
-11. Triggering A Script
-12. User Interaction
-13. Input Handling
-14. Sensing User Input
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Event | 17 |
+| Event Block | 7 |
+| When Green Flag Clicked | 2 |
+| When Key Pressed | 1 |
+| When Sprite Clicked | 1 |
+| Broadcast Block | 2 |
+| Receive Message Block | 1 |
+| Mouse Input | 4 |
+| Keyboard Input | 4 |
+| Event-Driven Program | 1 |
+| Triggering A Script | 1 |
+| User Interaction | 3 |
+| Input Handling | 1 |
+| Sensing User Input | 1 |
 
 ## Prerequisites
 

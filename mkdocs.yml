@@ -1,27 +1,17 @@
-site_name: 'CoderDojo TC Scratch'
+site_name: 'Scratch'
+site_description: 'Resources for the interactive intelligent textbook Scratch: An Introduction to Computational Thinking'
+site_author: 'Dan McCreary'
+site_url: 'https://dmccreary.github.io/scratch/'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/dmccreary/scratch'
+edit_uri: 'blob/main/docs'
+
 nav:
   - Shared Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
   - Course Description: course-description.md
-  - Intro:
-    - Getting Started: intro/01-getting-started.md
-    - Adding the Pen Extension: intro/02-list-of-blocks-used-in-intro.md
-    - Drawing A Square: intro/03-first-square.md
-    - Variables: intro/04-variables-square.md
-    - Loops: intro/05-loops.md
-    - Functions: intro/06-functions.md
-    - Functions With Parameters: intro/07-functions-with-parameters.md
-  - Labs:
-    - List of Labs: labs/index.md
-    - Draw a Square: labs/draw-a-square/index.md
-  - Presentations: presentations.md
-  - Learning Graph:
-    - Introduction: learning-graph/index.md
-    - Course Description Assessment: learning-graph/course-description-assessment.md
-    - Concept Enumeration: learning-graph/concept-list.md
-    - Graph Quality Analysis: learning-graph/quality-metrics.md
-    - Concept Taxonomy: learning-graph/concept-taxonomy.md
-    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
-    - Mascot Style Guide: learning-graph/mascot-test.md
+
+
+   
   - Chapters:
     - List of Chapters: chapters/index.md
     - 1. Computational Thinking Foundations: chapters/01-computational-thinking-foundations/index.md
@@ -37,14 +27,27 @@ nav:
     - 11. Events & Interactivity: chapters/11-events-interactivity/index.md
     - 12. Debugging & Testing: chapters/12-debugging-testing/index.md
     - 13. The Python & Turtle Bridge, and Capstone Project: chapters/13-python-turtle-bridge-capstone/index.md
+  
+  
+  
+  - Labs:
+    - List of Labs: labs/index.md
+    - Draw a Square: labs/draw-a-square/index.md
+  
+  - Presentations: presentations.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - Mascot Style Guide: learning-graph/mascot-test.md
+ 
+
   - Contact: contact.md
 
-site_description: 'Resources for teaching Scratch to CoderDojo Twin Cities students.'
-site_author: 'Dan McCreary'
-site_url: 'https://dmccreary.github.io/scratch/'
-repo_name: 'Scratch'
-repo_url: 'https://github.com/dmccreary/scratch'
-edit_uri: 'blob/master/docs'
+
 theme:
   name: material
   logo: img/mascot/welcome.png

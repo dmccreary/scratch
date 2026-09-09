@@ -8,20 +8,22 @@ This chapter introduces loops as a way to repeat blocks efficiently, covering fi
 
 This chapter covers the following 14 concepts from the learning graph:
 
-1. Loop
-2. Repeat Block
-3. Fixed-Count Loop
-4. Repeat Until Block
-5. Condition-Based Loop
-6. Forever Block
-7. Loop Counter
-8. Nested Loop
-9. Loop Body
-10. Exiting A Loop
-11. Repetition Pattern
-12. Loop Efficiency
-13. Infinite Loop
-14. Loop Iteration
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Loop | 43 |
+| Repeat Block | 29 |
+| Fixed-Count Loop | 27 |
+| Repeat Until Block | 7 |
+| Condition-Based Loop | 5 |
+| Forever Block | 2 |
+| Loop Counter | 1 |
+| Nested Loop | 1 |
+| Loop Body | 1 |
+| Exiting A Loop | 1 |
+| Repetition Pattern | 1 |
+| Loop Efficiency | 1 |
+| Infinite Loop | 1 |
+| Loop Iteration | 1 |
 
 ## Prerequisites
 

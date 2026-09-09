@@ -8,20 +8,22 @@ This chapter builds the habit of reading, tracing, and predicting a script's beh
 
 This chapter covers the following 14 concepts from the learning graph:
 
-1. Debugging
-2. Bug
-3. Reading A Script
-4. Isolating An Error
-5. Testing Incrementally
-6. Trace A Script
-7. Predicting Output
-8. Expected Behavior
-9. Actual Behavior
-10. Error Diagnosis
-11. Logical Error
-12. Syntax Mismatch
-13. Test Case
-14. Code Review
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Debugging | 8 |
+| Bug | 5 |
+| Reading A Script | 10 |
+| Isolating An Error | 4 |
+| Testing Incrementally | 2 |
+| Trace A Script | 4 |
+| Predicting Output | 3 |
+| Expected Behavior | 1 |
+| Actual Behavior | 1 |
+| Error Diagnosis | 3 |
+| Logical Error | 1 |
+| Syntax Mismatch | 1 |
+| Test Case | 1 |
+| Code Review | 1 |
 
 ## Prerequisites
 

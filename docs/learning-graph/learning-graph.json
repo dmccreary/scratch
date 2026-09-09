@@ -107,1006 +107,1206 @@
       "id": 1,
       "label": "Computational Thinking",
       "group": "CTFD",
-      "shape": "box"
+      "shape": "box",
+      "cis": 215
     },
     {
       "id": 2,
       "label": "Decomposition",
       "group": "CTFD",
-      "shape": "box"
+      "shape": "box",
+      "cis": 149
     },
     {
       "id": 3,
       "label": "Pattern Recognition",
       "group": "CTFD",
-      "shape": "box"
+      "shape": "box",
+      "cis": 2
     },
     {
       "id": 4,
       "label": "Abstraction",
       "group": "CTFD",
-      "shape": "box"
+      "shape": "box",
+      "cis": 69
     },
     {
       "id": 5,
       "label": "Algorithm Design",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 108
     },
     {
       "id": 6,
       "label": "Algorithm",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 104
     },
     {
       "id": 7,
       "label": "Problem Solving",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 3
     },
     {
       "id": 8,
       "label": "Step-By-Step Thinking",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 76
     },
     {
       "id": 9,
       "label": "Precise Instructions",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 3
     },
     {
       "id": 10,
       "label": "Ambiguity In Instructions",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 11,
       "label": "Generalization",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 12,
       "label": "Efficiency Of A Solution",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 4
     },
     {
       "id": 13,
       "label": "Reusability",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 7
     },
     {
       "id": 14,
       "label": "Computational Artifact",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 15,
       "label": "Iterative Design",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 16,
       "label": "Planning Before Coding",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 3
     },
     {
       "id": 17,
       "label": "Scratch Editor",
       "group": "INTF",
-      "shape": "box"
+      "shape": "box",
+      "cis": 482
     },
     {
       "id": 18,
       "label": "Stage",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 2
     },
     {
       "id": 19,
       "label": "Sprite",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 172
     },
     {
       "id": 20,
       "label": "Sprite Costume",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 1
     },
     {
       "id": 21,
       "label": "Backdrop",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 1
     },
     {
       "id": 22,
       "label": "Block Palette",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 172
     },
     {
       "id": 23,
       "label": "Script Area",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 127
     },
     {
       "id": 24,
       "label": "Block Categories",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 171
     },
     {
       "id": 25,
       "label": "Motion Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 58
     },
     {
       "id": 26,
       "label": "Pen Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 34
     },
     {
       "id": 27,
       "label": "Control Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 49
     },
     {
       "id": 28,
       "label": "Operator Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 8
     },
     {
       "id": 29,
       "label": "Looks Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 1
     },
     {
       "id": 30,
       "label": "Sound Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 1
     },
     {
       "id": 31,
       "label": "Sensing Blocks",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 2
     },
     {
       "id": 32,
       "label": "Green Flag",
-      "group": "INTF"
+      "group": "INTF",
+      "cis": 8
     },
     {
       "id": 33,
       "label": "Script",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 126
     },
     {
       "id": 34,
       "label": "Sequencing",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 75
     },
     {
       "id": 35,
       "label": "Program Flow",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 1
     },
     {
       "id": 36,
       "label": "Block Snapping",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 6
     },
     {
       "id": 37,
       "label": "Stack Of Blocks",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 5
     },
     {
       "id": 38,
       "label": "Order Of Operations",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 9
     },
     {
       "id": 39,
       "label": "Starting A Script",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 5
     },
     {
       "id": 40,
       "label": "Script Execution",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 4
     },
     {
       "id": 41,
       "label": "Top-Down Reading",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 2
     },
     {
       "id": 42,
       "label": "Single Script",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 4
     },
     {
       "id": 43,
       "label": "Multiple Scripts",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 3
     },
     {
       "id": 44,
       "label": "Script Coordination",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 2
     },
     {
       "id": 45,
       "label": "Running A Script",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 3
     },
     {
       "id": 46,
       "label": "Stopping A Script",
-      "group": "SEQC"
+      "group": "SEQC",
+      "cis": 2
     },
     {
       "id": 47,
       "label": "X Coordinate",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 116
     },
     {
       "id": 48,
       "label": "Y Coordinate",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 58
     },
     {
       "id": 49,
       "label": "Coordinate Plane",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 57
     },
     {
       "id": 50,
       "label": "Origin Point",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 2
     },
     {
       "id": 51,
       "label": "Sprite Heading",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 54
     },
     {
       "id": 52,
       "label": "Degrees Of Turn",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 27
     },
     {
       "id": 53,
       "label": "Turn Right Block",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 2
     },
     {
       "id": 54,
       "label": "Turn Left Block",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 2
     },
     {
       "id": 55,
       "label": "Move Steps Block",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 50
     },
     {
       "id": 56,
       "label": "Point In Direction",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 2
     },
     {
       "id": 57,
       "label": "Go To XY Block",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 3
     },
     {
       "id": 58,
       "label": "Glide Block",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 2
     },
     {
       "id": 59,
       "label": "Absolute Position",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 1
     },
     {
       "id": 60,
       "label": "Relative Movement",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 24
     },
     {
       "id": 61,
       "label": "Facing Direction",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 23
     },
     {
       "id": 62,
       "label": "Rotation Style",
-      "group": "MOTN"
+      "group": "MOTN",
+      "cis": 1
     },
     {
       "id": 63,
       "label": "Pen Down Block",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 26
     },
     {
       "id": 64,
       "label": "Pen Up Block",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 2
     },
     {
       "id": 65,
       "label": "Pen Trail",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 66,
       "label": "Drawing A Line",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 23
     },
     {
       "id": 67,
       "label": "Drawing An Angle",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 22
     },
     {
       "id": 68,
       "label": "Drawing A Polygon",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 20
     },
     {
       "id": 69,
       "label": "Drawing A Triangle",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 70,
       "label": "Drawing A Square",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 2
     },
     {
       "id": 71,
       "label": "Drawing A Star",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 72,
       "label": "Drawing A Spiral",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 2
     },
     {
       "id": 73,
       "label": "Regular Polygon",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 4
     },
     {
       "id": 74,
       "label": "Interior Angle",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 75,
       "label": "Exterior Angle",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 76,
       "label": "Pen Color",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 2
     },
     {
       "id": 77,
       "label": "Pen Size",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 78,
       "label": "Stamp Block",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 79,
       "label": "Clear Block",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 80,
       "label": "Generative Art Pattern",
-      "group": "DRAW"
+      "group": "DRAW",
+      "cis": 1
     },
     {
       "id": 81,
       "label": "Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 43
     },
     {
       "id": 82,
       "label": "Repeat Block",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 29
     },
     {
       "id": 83,
       "label": "Fixed-Count Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 27
     },
     {
       "id": 84,
       "label": "Repeat Until Block",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 7
     },
     {
       "id": 85,
       "label": "Condition-Based Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 5
     },
     {
       "id": 86,
       "label": "Forever Block",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 2
     },
     {
       "id": 87,
       "label": "Loop Counter",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 88,
       "label": "Nested Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 89,
       "label": "Loop Body",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 90,
       "label": "Exiting A Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 91,
       "label": "Repetition Pattern",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 92,
       "label": "Loop Efficiency",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 93,
       "label": "Infinite Loop",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 94,
       "label": "Loop Iteration",
-      "group": "LOOP"
+      "group": "LOOP",
+      "cis": 1
     },
     {
       "id": 95,
       "label": "Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 18
     },
     {
       "id": 96,
       "label": "Creating A Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 17
     },
     {
       "id": 97,
       "label": "Naming A Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 98,
       "label": "Setting A Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 2
     },
     {
       "id": 99,
       "label": "Changing A Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 100,
       "label": "Variable Value",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 101,
       "label": "Side Length Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 102,
       "label": "Angle Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 103,
       "label": "Number Of Sides Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 104,
       "label": "Variable Scope",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 3
     },
     {
       "id": 105,
       "label": "Global Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 106,
       "label": "Local Variable",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 107,
       "label": "Data Type",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 6
     },
     {
       "id": 108,
       "label": "Number Data",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 2
     },
     {
       "id": 109,
       "label": "String Data",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 2
     },
     {
       "id": 110,
       "label": "List Concept",
-      "group": "VARD"
+      "group": "VARD",
+      "cis": 1
     },
     {
       "id": 111,
       "label": "Conditional Statement",
-      "group": "COND"
+      "group": "COND",
+      "cis": 8
     },
     {
       "id": 112,
       "label": "If Block",
-      "group": "COND"
+      "group": "COND",
+      "cis": 3
     },
     {
       "id": 113,
       "label": "If-Else Block",
-      "group": "COND"
+      "group": "COND",
+      "cis": 2
     },
     {
       "id": 114,
       "label": "Boolean Expression",
-      "group": "COND"
+      "group": "COND",
+      "cis": 6
     },
     {
       "id": 115,
       "label": "Comparison Operator",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 116,
       "label": "Logical And",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 117,
       "label": "Logical Or",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 118,
       "label": "Logical Not",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 119,
       "label": "Decision Logic",
-      "group": "COND"
+      "group": "COND",
+      "cis": 2
     },
     {
       "id": 120,
       "label": "Condition Testing",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 121,
       "label": "True Or False Value",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 122,
       "label": "Nested Conditional",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 123,
       "label": "Branching Logic",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 124,
       "label": "Wait Until Block",
-      "group": "COND"
+      "group": "COND",
+      "cis": 1
     },
     {
       "id": 125,
       "label": "Custom Block",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 39
     },
     {
       "id": 126,
       "label": "Make A Block Feature",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 18
     },
     {
       "id": 127,
       "label": "Block Definition",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 15
     },
     {
       "id": 128,
       "label": "Block Name",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 129,
       "label": "Procedural Abstraction",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 20
     },
     {
       "id": 130,
       "label": "Function Concept",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 8
     },
     {
       "id": 131,
       "label": "Procedure Concept",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 132,
       "label": "Reusable Procedure",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 6
     },
     {
       "id": 133,
       "label": "Calling A Block",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 2
     },
     {
       "id": 134,
       "label": "Block Body",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 135,
       "label": "Single Responsibility",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 3
     },
     {
       "id": 136,
       "label": "Well-Designed Block",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 2
     },
     {
       "id": 137,
       "label": "Draw Square Block",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 138,
       "label": "Draw Polygon Block",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 139,
       "label": "Block Library",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 5
     },
     {
       "id": 140,
       "label": "Composing Blocks",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 4
     },
     {
       "id": 141,
       "label": "Nested Custom Blocks",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 142,
       "label": "Refactoring A Script",
-      "group": "ABST"
+      "group": "ABST",
+      "cis": 1
     },
     {
       "id": 143,
       "label": "Parameter",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 10
     },
     {
       "id": 144,
       "label": "Adding A Parameter",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 3
     },
     {
       "id": 145,
       "label": "Parameter Type",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 4
     },
     {
       "id": 146,
       "label": "Number Parameter",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 147,
       "label": "Text Parameter",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 148,
       "label": "Boolean Parameter",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 149,
       "label": "Generalizing A Procedure",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 150,
       "label": "Default Value",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 151,
       "label": "Argument Value",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 152,
       "label": "Multiple Parameters",
-      "group": "PARM"
+      "group": "PARM",
+      "cis": 1
     },
     {
       "id": 153,
       "label": "Event",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 17
     },
     {
       "id": 154,
       "label": "Event Block",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 7
     },
     {
       "id": 155,
       "label": "When Green Flag Clicked",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 2
     },
     {
       "id": 156,
       "label": "When Key Pressed",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 157,
       "label": "When Sprite Clicked",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 158,
       "label": "Broadcast Block",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 2
     },
     {
       "id": 159,
       "label": "Receive Message Block",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 160,
       "label": "Mouse Input",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 4
     },
     {
       "id": 161,
       "label": "Keyboard Input",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 4
     },
     {
       "id": 162,
       "label": "Event-Driven Program",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 163,
       "label": "Triggering A Script",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 164,
       "label": "User Interaction",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 3
     },
     {
       "id": 165,
       "label": "Input Handling",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 166,
       "label": "Sensing User Input",
-      "group": "EVNT"
+      "group": "EVNT",
+      "cis": 1
     },
     {
       "id": 167,
       "label": "Debugging",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 8
     },
     {
       "id": 168,
       "label": "Bug",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 5
     },
     {
       "id": 169,
       "label": "Reading A Script",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 10
     },
     {
       "id": 170,
       "label": "Isolating An Error",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 4
     },
     {
       "id": 171,
       "label": "Testing Incrementally",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 2
     },
     {
       "id": 172,
       "label": "Trace A Script",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 4
     },
     {
       "id": 173,
       "label": "Predicting Output",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 3
     },
     {
       "id": 174,
       "label": "Expected Behavior",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 175,
       "label": "Actual Behavior",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 176,
       "label": "Error Diagnosis",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 3
     },
     {
       "id": 177,
       "label": "Logical Error",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 178,
       "label": "Syntax Mismatch",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 179,
       "label": "Test Case",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 180,
       "label": "Code Review",
-      "group": "DBUG"
+      "group": "DBUG",
+      "cis": 1
     },
     {
       "id": 181,
       "label": "Python Language",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 18
     },
     {
       "id": 182,
       "label": "Text-Based Programming",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 10
     },
     {
       "id": 183,
       "label": "Turtle Module",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 7
     },
     {
       "id": 184,
       "label": "Forward Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 185,
       "label": "Backward Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 186,
       "label": "Left Turn Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 187,
       "label": "Right Turn Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 188,
       "label": "Pen Up Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 189,
       "label": "Pen Down Function",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 190,
       "label": "Block-To-Text Mapping",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 6
     },
     {
       "id": 191,
       "label": "Syntax Versus Concept",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 192,
       "label": "Typing Code",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 193,
       "label": "Indentation Concept",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 194,
       "label": "Function Call Syntax",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 1
     },
     {
       "id": 195,
       "label": "Conceptual Bridge",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 4
     },
     {
       "id": 196,
       "label": "Transition To Python",
-      "group": "BRDG"
+      "group": "BRDG",
+      "cis": 3
     },
     {
       "id": 197,
       "label": "Capstone Project",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 198,
       "label": "Algorithm Flowchart",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 2
     },
     {
       "id": 199,
       "label": "Pseudocode",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 1
     },
     {
       "id": 200,
       "label": "Project Presentation",
-      "group": "CTFD"
+      "group": "CTFD",
+      "cis": 1
     }
   ],
   "edges": [

@@ -8,22 +8,24 @@ This chapter covers the coordinate plane, the origin point, and how x and y coor
 
 This chapter covers the following 16 concepts from the learning graph:
 
-1. X Coordinate
-2. Y Coordinate
-3. Coordinate Plane
-4. Origin Point
-5. Sprite Heading
-6. Degrees Of Turn
-7. Turn Right Block
-8. Turn Left Block
-9. Move Steps Block
-10. Point In Direction
-11. Go To XY Block
-12. Glide Block
-13. Absolute Position
-14. Relative Movement
-15. Facing Direction
-16. Rotation Style
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| X Coordinate | 116 |
+| Y Coordinate | 58 |
+| Coordinate Plane | 57 |
+| Origin Point | 2 |
+| Sprite Heading | 54 |
+| Degrees Of Turn | 27 |
+| Turn Right Block | 2 |
+| Turn Left Block | 2 |
+| Move Steps Block | 50 |
+| Point In Direction | 2 |
+| Go To XY Block | 3 |
+| Glide Block | 2 |
+| Absolute Position | 1 |
+| Relative Movement | 24 |
+| Facing Direction | 23 |
+| Rotation Style | 1 |
 
 ## Prerequisites
 

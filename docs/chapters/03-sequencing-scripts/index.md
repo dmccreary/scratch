@@ -8,20 +8,22 @@ This chapter teaches how individual blocks snap together into ordered scripts an
 
 This chapter covers the following 14 concepts from the learning graph:
 
-1. Script
-2. Sequencing
-3. Program Flow
-4. Block Snapping
-5. Stack Of Blocks
-6. Order Of Operations
-7. Starting A Script
-8. Script Execution
-9. Top-Down Reading
-10. Single Script
-11. Multiple Scripts
-12. Script Coordination
-13. Running A Script
-14. Stopping A Script
+| Concept | Concept Impact Score |
+|---------|----------------------|
+| Script | 126 |
+| Sequencing | 75 |
+| Program Flow | 1 |
+| Block Snapping | 6 |
+| Stack Of Blocks | 5 |
+| Order Of Operations | 9 |
+| Starting A Script | 5 |
+| Script Execution | 4 |
+| Top-Down Reading | 2 |
+| Single Script | 4 |
+| Multiple Scripts | 3 |
+| Script Coordination | 2 |
+| Running A Script | 3 |
+| Stopping A Script | 2 |
 
 ## Prerequisites
 
