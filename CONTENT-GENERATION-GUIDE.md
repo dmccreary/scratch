@@ -14,26 +14,44 @@ Everything is dragged and clicked, never typed. Keep sentences short, define
 every new word the first time it appears, and never assume prior programming
 experience.
 
-## Scratchblocks Notation
+## Scratch Blocks: Always Render, Never Screenshot
 
-Scratchblocks is a human-readable notation for describing a scratch program.
-It is widely used and supported in the Scratch community and we use it extensively
-in this course.
+Scratchblocks is a human-readable text notation for a Scratch program. This
+book renders it live: `docs/js/scratchblocks-init.js` (loaded from
+`mkdocs.yml`) turns the notation into real Scratch 3 block art in the browser,
+styled by `docs/css/scratchblocks.css`.
 
-The most important feature of this textbook is a sophisticated program that will
-generate images of the scratch block diagrams directly in any Markdown file that contains scratchblocks
-example code.
-The user must surround the Scratchblocs code with HTML `pre` tags and the begin tag must have a `blocks` class.
+### When to use it
+
+**Use scratchblocks for every block stack, every block, and every code snippet
+you show a student.** A rendered diagram is one block of text a future editor
+can fix in seconds; a screenshot of the same blocks is a binary file that goes
+stale the moment the program changes, cannot be searched, cannot be translated,
+and cannot be read by a screen reader.
+
+Only use a PNG when the thing on screen is **not blocks**: the Scratch editor
+interface (menus, the extension picker, the block palette), the drawing a
+program produces on the stage, or a photograph. If you are about to generate or
+capture an image of blocks, stop and write scratchblocks instead.
+
+### How to use it — block stacks
+
+Wrap the notation in an HTML `<pre>` tag whose class is `blocks`, with a blank
+line before and after it:
 
 ```html
 <pre class="blocks">
-  ...scratchblocks code here...
+when green flag clicked
+erase all
+set pen size to (5)
+pen down
+move (100) steps
+wait (1) seconds
+turn right (90) degrees
 </pre>
 ```
 
-## Example of Inline Scratchblocks
-
-The syntax is like this:
+That renders as:
 
 <pre class="blocks">
 when green flag clicked
@@ -45,9 +63,55 @@ wait (1) seconds
 turn right (90) degrees
 </pre>
 
-Use this format whenever you need to generate a sample scratch program.
+Three rules that are easy to get wrong:
 
-See the complete `scratch-lab-generator` skill for generating full Labs here: `@skills/scratch-lab-generator` for examples.  Note that this is implemented by both javascript and CSS support.
+1. **Escape angle brackets** as `&lt;` and `&gt;` inside the `<pre>`, or the
+   browser's HTML parser eats a boolean like `<(x) > (50)>`.
+2. **Indent the whole `<pre>` block by four spaces** when it sits inside an
+   admonition (`!!! note`) or a collapsible (`??? note`). Lose the indent and
+   the block falls out of the box.
+3. **Markdown is not processed inside the `<pre>`** — no links, no bold, no
+   mascot images. Put those in the paragraph above it.
+
+### How to use it — inline blocks
+
+To name a single block in the middle of a sentence, use inline code with the
+`.b` class (`attr_list` is enabled, so the class reaches the renderer):
+
+```markdown
+Drag the `move (10) steps`{.b} block under the green flag.
+```
+
+Which reads as: Drag the `move (10) steps`{.b} block under the green flag.
+
+Use this whenever you would otherwise write a block name in plain backticks or
+paste a one-block screenshot.
+
+### Notation syntax
+
+The full text syntax — operand brackets, C-blocks and `end`, custom blocks,
+comments — is documented in
+[`skills/scratch-lab-generator/references/scratchblocks-syntax.md`](skills/scratch-lab-generator/references/scratchblocks-syntax.md).
+
+Two different limits apply, and it matters which one you are under:
+
+- **Rendering on a page** accepts any valid scratchblocks notation.
+- **Compiling to a downloadable `.sb3`** (labs only) accepts only the blocks in
+  the generated table in that reference. An unlisted block is a hard error, not
+  a silent guess.
+
+### Checking your work
+
+Build the site and confirm each diagram drew as blocks rather than plain text:
+
+```bash
+mkdocs serve
+```
+
+For a full lab, `skills/scratch-lab-generator` generates the page, the diagram,
+and the `.sb3` files from one source file, and
+`python3 skills/scratch-lab-generator/scripts/check_lab.py docs/labs/<slug>`
+verifies that they still agree.
 
 ## Learning Mascot: Cody the CoderDojo Turtle
 
