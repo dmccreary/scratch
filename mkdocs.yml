@@ -4,13 +4,15 @@ nav:
   - Course Description: course-description.md
   - Intro:
     - Getting Started: intro/01-getting-started.md
-    - Summary of Labs: labs.md
     - Adding the Pen Extension: intro/02-list-of-blocks-used-in-intro.md
     - Drawing A Square: intro/03-first-square.md
     - Variables: intro/04-variables-square.md
     - Loops: intro/05-loops.md
     - Functions: intro/06-functions.md
     - Functions With Parameters: intro/07-functions-with-parameters.md
+  - Labs:
+    - List of Labs: labs/index.md
+    - Draw a Square: labs/draw-a-square/index.md
   - Presentations: presentations.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -19,6 +21,7 @@ nav:
     - Graph Quality Analysis: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - Mascot Style Guide: learning-graph/mascot-test.md
   - Chapters:
     - List of Chapters: chapters/index.md
     - 1. Computational Thinking Foundations: chapters/01-computational-thinking-foundations/index.md
@@ -55,14 +58,21 @@ theme:
   include_sidebar: true
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       permalink: true
   - codehilite:
       linenums: true
 plugins:
     - search
-markdown_extensions:
-  - codehilite
-extra_css: 
+extra_css:
   - stylesheets/extra.css
+  - stylesheets/mascot.css
+  - stylesheets/scratchblocks.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/scratchblocks@3.7.1/build/scratchblocks.min.js
+  - js/scratchblocks-init.js

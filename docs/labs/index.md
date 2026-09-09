@@ -1,7 +1,20 @@
-# List of Turtle Graphics Labs
+# Turtle Graphics Labs
 These labs are ideal for students that have never done programming before.  It will slowly introduce them to the
 concepts we used to write a program.  The goal is to keep the number of blocks small but still teach the key concepts.
 These labs will be repeated in the Python curriculum once students gain keyboarding skills.
+
+## Labs Ready to Run
+
+Each lab is a complete lesson with a challenge, a starter program you can
+download and open in Scratch, and a solution you can reveal when you are ready.
+
+| Lab | Level | Time | The Challenge |
+|-----|-------|------|---------------|
+| [Draw a Square](draw-a-square/index.md) | Beginner | 20 min | Cody draws one side and stops. Finish the program so he walks the whole square. |
+
+## Planned Labs
+
+The rest of this page is the plan for labs still to be written.
 
 ## Sprite Movement Commands
 Move a sprite in a square - we first need to understand the idea of an event that triggers the start of the program
