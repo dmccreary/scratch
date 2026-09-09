@@ -47,7 +47,7 @@ repo_url: 'https://github.com/dmccreary/scratch'
 edit_uri: 'blob/master/docs'
 theme:
   name: material
-  logo: img/coderdojo-logo.png
+  logo: img/mascot/welcome.png
   favicon: img/favicon.png
   palette:
     primary: '#642580'
@@ -69,10 +69,12 @@ markdown_extensions:
       linenums: true
 plugins:
     - search
+
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/mascot.css
-  - stylesheets/scratchblocks.css
+  - css/extra.css
+  - css/mascot.css
+  - css/scratchblocks.css
+
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/scratchblocks@3.7.1/build/scratchblocks.min.js
   - js/scratchblocks-init.js

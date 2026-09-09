@@ -32,7 +32,7 @@ others in the same turn so they stay in sync.
 | [`docs/img/mascot/warning.png`](docs/img/mascot/warning.png) | Common-mistake / pitfall pose. |
 | [`docs/img/mascot/encouraging.png`](docs/img/mascot/encouraging.png) | Difficult-content / "stuck?" pose. |
 | [`docs/img/mascot/celebration.png`](docs/img/mascot/celebration.png) | End-of-chapter / achievement pose. |
-| [`docs/stylesheets/mascot.css`](docs/stylesheets/mascot.css) | Custom admonition styles for the seven pose contexts. |
+| [`docs/css/mascot.css`](docs/css/mascot.css) | Custom admonition styles for the seven pose contexts. |
 | [`docs/learning-graph/mascot-test.md`](docs/learning-graph/mascot-test.md) | Rendering test page that exercises every admonition style. |
 | [`scripts/generate-mascot.py`](scripts/generate-mascot.py) | Source of the artwork — regenerates all seven poses as SVG. |
 

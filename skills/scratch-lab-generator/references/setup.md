@@ -18,15 +18,13 @@ Copy from this skill's `assets/templates/` into the project:
 | `scratchblocks.css` | `docs/css/scratchblocks.css` |
 | `scratchblocks-init.js` | `docs/js/scratchblocks-init.js` |
 
-If the project already keeps stylesheets somewhere else — this repo uses
-`docs/stylesheets/extra.css` — put them alongside the existing ones and adjust
-the `mkdocs.yml` paths below to match. Do not create a second convention.
+All stylesheets live in `docs/css/` and all scripts in `docs/js/`. Put new
+files alongside the existing ones rather than creating a second convention.
 
 ## 2. mkdocs.yml
 
-Merge these keys. **`mkdocs.yml` in this repo declares `markdown_extensions`
-twice**, and the second declaration silently wins; collapse them into one list
-while you are here rather than adding a third.
+Merge these keys into the existing single `markdown_extensions` list rather than
+adding a second declaration — a duplicate key silently wins over the first.
 
 ```yaml
 markdown_extensions:
@@ -42,7 +40,7 @@ markdown_extensions:
       linenums: true
 
 extra_css:
-  - stylesheets/extra.css
+  - css/extra.css
   - css/mascot.css
   - css/scratchblocks.css
 

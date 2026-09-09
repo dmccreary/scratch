@@ -8,12 +8,11 @@ base block.
 Before using any of them, read [`character-sheet.md`](character-sheet.md). The
 character sheet is the source of truth; these prompts must stay in sync with it.
 
-!!! note "The committed artwork is code-generated, not AI-generated"
-    The PNGs currently in this directory were produced by
-    `scripts/generate-mascot.py`, which guarantees the seven poses share
-    identical geometry. Use these prompts only if you want to replace the whole
-    set with a different illustration style — and if you do, regenerate **all
-    seven** in one sitting so they match.
+!!! note "The committed artwork is a coordinated AI-generated set"
+    The PNGs currently in this directory were generated from these prompts in
+    one session. The neutral image was used as the visual identity reference for
+    the other six poses, then every result was normalized to the shared 400 × 392
+    transparent canvas. Regenerate **all seven** together to preserve consistency.
 
 ## Opening instruction to the image model
 

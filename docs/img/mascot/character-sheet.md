@@ -82,8 +82,22 @@ binding on every future pose or redraw:
 | Encouraging | `encouraging.png` | Difficult content / "stuck?" hints |
 | Celebration | `celebration.png` | End of chapter or lab, achievements |
 
-All seven share one bounding box, so Cody is drawn at exactly the same scale in
-every file. Each is a 400 × 392 RGBA PNG with a fully transparent background.
+All seven are drawn at the same scale, then trimmed to their own content with a
+uniform 4 px transparent buffer, so each file is a tight RGBA PNG with a fully
+transparent background. Heights land within 363–371 px, which keeps Cody the same
+apparent size across poses when the images are letterboxed into the fixed 90 × 90
+box that `mascot.css` gives `.mascot-admonition-img` (`object-fit: contain`).
+Widths vary with the pose:
+
+| File | Size (px) |
+|------|-----------|
+| `neutral.png` | 236 × 363 |
+| `welcome.png` | 300 × 364 |
+| `thinking.png` | 267 × 368 |
+| `tip.png` | 270 × 365 |
+| `warning.png` | 307 × 365 |
+| `encouraging.png` | 265 × 365 |
+| `celebration.png` | 336 × 371 |
 
 See [`image-prompts.md`](image-prompts.md) for the full text of each pose prompt.
 The base description embedded in every pose prompt must match this character
@@ -91,14 +105,31 @@ sheet exactly.
 
 ## How the Artwork Is Produced
 
-The current pose set is **generated from code**, not from an image model, so the
-seven poses are guaranteed to share identical geometry:
+The current pose set was generated as one coordinated text-to-image batch from
+the self-contained prompts in [`image-prompts.md`](image-prompts.md), using the
+neutral pose as the visual identity reference for the other six poses. The batch
+renders onto a shared 400 × 392 transparent RGBA canvas; each file is then trimmed
+to the bounding box of its visible pixels (4 px buffer) and re-saved with PNG
+optimisation, giving the per-pose sizes listed above:
+
+```bash
+python3 ~/.claude/skills/book-installer/scripts/trim-padding-from-image.py \
+  docs/img/mascot/neutral.png docs/img/mascot/welcome.png \
+  docs/img/mascot/thinking.png docs/img/mascot/tip.png \
+  docs/img/mascot/warning.png docs/img/mascot/encouraging.png \
+  docs/img/mascot/celebration.png
+```
+
+Re-run the trim after regenerating any pose — untrimmed canvases make Cody render
+noticeably smaller inside the mascot admonition box.
+
+The earlier deterministic vector set can still be regenerated from code:
 
 ```bash
 python3 scripts/generate-mascot.py /tmp/cody-svg
 ```
 
-That writes seven SVG files. They are rasterised to transparent PNG with headless
+That writes seven SVG files. They can be rasterised to transparent PNG with headless
 Chrome:
 
 ```bash
@@ -108,17 +139,10 @@ Chrome:
   --screenshot=/tmp/cody-svg/neutral.png /tmp/cody-svg/neutral.svg
 ```
 
-All seven are then cropped to a **shared** bounding box and resized so the
-character scale matches across the set. To change Cody's design, edit
-`scripts/generate-mascot.py` — the palette and geometry constants are at the top
-of the file — and update this character sheet in the same commit.
-
-If you would rather regenerate Cody with a text-to-image model, use
-[`image-prompts.md`](image-prompts.md) and then trim the transparent padding:
-
-```bash
-python3 ~/Documents/ws/claude-skills/src/image-utils/trim-padding-from-image.py docs/img/mascot/neutral.png
-```
+To regenerate the current illustrated set, use all seven prompts in
+[`image-prompts.md`](image-prompts.md) in one session, keep the neutral result as
+the visual reference for the remaining poses, and then normalize every image to
+the canonical shared canvas.
 
 ## Why This Mascot
 
