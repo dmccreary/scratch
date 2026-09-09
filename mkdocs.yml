@@ -10,8 +10,6 @@ nav:
   - Shared Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
   - Course Description: course-description.md
 
-
-   
   - Chapters:
     - List of Chapters: chapters/index.md
     - 1. Computational Thinking Foundations: chapters/01-computational-thinking-foundations/index.md
@@ -28,13 +26,12 @@ nav:
     - 12. Debugging & Testing: chapters/12-debugging-testing/index.md
     - 13. The Python & Turtle Bridge, and Capstone Project: chapters/13-python-turtle-bridge-capstone/index.md
   
-  
-  
   - Labs:
     - List of Labs: labs/index.md
     - Draw a Square: labs/draw-a-square/index.md
   
-  - Presentations: presentations.md
+
+  
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
@@ -43,8 +40,20 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
     - Mascot Style Guide: learning-graph/mascot-test.md
- 
+  
+  - Presentations: presentations.md
+  
+  - Legacy Content:
+    - Getting Started: legacy-content/01-getting-started.md
+    - Adding the Pen Extension: legacy-content/02-list-of-blocks-used-in-intro.md
+    - Draw A Square (the hard way): legacy-content/03-first-square.md
+    - Draw A Square With Variables: legacy-content/04-variables-square.md
+    - Draw A Square With A Repeat Loop: legacy-content/05-loops.md
+    - Adding Your Own Function Blocks: legacy-content/06-functions.md
+    - Functions with Parameters: legacy-content/07-functions-with-parameters.md
 
+  - Glossary: glossary.md
+  - FAQ: faq.md
   - Contact: contact.md
 
 

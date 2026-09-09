@@ -15,7 +15,7 @@ The teacher's guide, instructor's guide, and other instructor-facing content do
 
 ## Learning mascot
 
-The mascot is **Cody the CoderDojo Turtle** — gender-neutral, referred to by name
+The mascot is **Cody the Turtle** — gender-neutral, referred to by name
 or as *they/them*. The source of truth for Cody's appearance and voice is
 [`docs/img/mascot/character-sheet.md`](docs/img/mascot/character-sheet.md).
 
