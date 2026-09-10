@@ -10,6 +10,10 @@ nav:
     - Loops: intro/05-loops.md
     - Functions: intro/06-functions.md
     - Functions With Parameters: intro/07-functions-with-parameters.md
+  - Teachers Guide:
+    - Overview: teachers-guide/index.md
+    - Scratchblocks Notation: teachers-guide/scratchblocks.md
+    - Inside the .sb3 File: teachers-guide/sb3-file-format.md
   - Presentations: presentations.md
   - Contact: contact.md
 
@@ -33,13 +37,13 @@ theme:
 markdown_extensions:
   - admonition
   - footnotes
+  - tables
+  - fenced_code
   - toc:
       permalink: true
   - codehilite:
-      linenums: true
+      guess_lang: false
 plugins:
     - search
-markdown_extensions:
-  - codehilite
 extra_css: 
   - stylesheets/extra.css
