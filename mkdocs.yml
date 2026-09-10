@@ -1,31 +1,69 @@
-site_name: 'CoderDojo TC Scratch'
+site_name: 'Scratch'
+site_description: 'Resources for the interactive intelligent textbook Scratch: An Introduction to Computational Thinking'
+site_author: 'Dan McCreary'
+site_url: 'https://dmccreary.github.io/scratch/'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/dmccreary/scratch'
+edit_uri: 'blob/main/docs'
+
 nav:
   - Shared Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
-  - Intro:
-    - Getting Started: intro/01-getting-started.md
-    - Summary of Labs: labs.md
-    - Adding the Pen Extension: intro/02-list-of-blocks-used-in-intro.md
-    - Drawing A Square: intro/03-first-square.md
-    - Variables: intro/04-variables-square.md
-    - Loops: intro/05-loops.md
-    - Functions: intro/06-functions.md
-    - Functions With Parameters: intro/07-functions-with-parameters.md
+  - Course Description: course-description.md
+
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Computational Thinking Foundations: chapters/01-computational-thinking-foundations/index.md
+    - 2. The Scratch Interface & Environment: chapters/02-scratch-interface-environment/index.md
+    - 3. Sequencing & Scripts: chapters/03-sequencing-scripts/index.md
+    - 4. Motion & Coordinates: chapters/04-motion-coordinates/index.md
+    - 5. Loops & Repetition: chapters/05-loops-repetition/index.md
+    - 6. Turtle-Graphics Drawing: chapters/06-turtle-graphics-drawing/index.md
+    - 7. Variables & Data: chapters/07-variables-data/index.md
+    - 8. Conditionals & Logic: chapters/08-conditionals-logic/index.md
+    - 9. Custom Blocks & Abstraction: chapters/09-custom-blocks-abstraction/index.md
+    - 10. Parameters & Generalization: chapters/10-parameters-generalization/index.md
+    - 11. Events & Interactivity: chapters/11-events-interactivity/index.md
+    - 12. Debugging & Testing: chapters/12-debugging-testing/index.md
+    - 13. The Python & Turtle Bridge, and Capstone Project: chapters/13-python-turtle-bridge-capstone/index.md
+
+  - Labs:
+    - List of Labs: labs/index.md
+    - Draw a Square: labs/draw-a-square/index.md
+
+
+
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - Mascot Style Guide: learning-graph/mascot-test.md
+
+  - Presentations: presentations.md
+
+  - Legacy Content:
+    - Getting Started: legacy-content/01-getting-started.md
+    - Adding the Pen Extension: legacy-content/02-list-of-blocks-used-in-intro.md
+    - Draw A Square (the hard way): legacy-content/03-first-square.md
+    - Draw A Square With Variables: legacy-content/04-variables-square.md
+    - Draw A Square With A Repeat Loop: legacy-content/05-loops.md
+    - Adding Your Own Function Blocks: legacy-content/06-functions.md
+    - Functions with Parameters: legacy-content/07-functions-with-parameters.md
+
+  - Glossary: glossary.md
+  - FAQ: faq.md
   - Teachers Guide:
     - Overview: teachers-guide/index.md
     - Scratchblocks Notation: teachers-guide/scratchblocks.md
     - Inside the .sb3 File: teachers-guide/sb3-file-format.md
-  - Presentations: presentations.md
   - Contact: contact.md
 
-site_description: 'Resources for teaching Scratch to CoderDojo Twin Cities students.'
-site_author: 'Dan McCreary'
-site_url: 'https://dmccreary.github.io/scratch/'
-repo_name: 'Scratch'
-repo_url: 'https://github.com/dmccreary/scratch'
-edit_uri: 'blob/master/docs'
+
 theme:
   name: material
-  logo: img/coderdojo-logo.png
+  logo: img/mascot/welcome.png
   favicon: img/favicon.png
   palette:
     primary: '#642580'
@@ -36,14 +74,25 @@ theme:
   include_sidebar: true
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - footnotes
   - tables
-  - fenced_code
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       permalink: true
   - codehilite:
+      linenums: true
       guess_lang: false
 plugins:
     - search
-extra_css: 
-  - stylesheets/extra.css
+
+extra_css:
+  - css/extra.css
+  - css/mascot.css
+  - css/scratchblocks.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/scratchblocks@3.7.1/build/scratchblocks.min.js
+  - js/scratchblocks-init.js

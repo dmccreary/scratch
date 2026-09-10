@@ -1,0 +1,15 @@
+{
+  "CTFD": "Computational Thinking Foundations",
+  "INTF": "Scratch Interface & Environment",
+  "SEQC": "Sequencing & Scripts",
+  "MOTN": "Motion & Coordinates",
+  "DRAW": "Turtle-Graphics Drawing",
+  "LOOP": "Loops & Repetition",
+  "VARD": "Variables & Data",
+  "COND": "Conditionals & Logic",
+  "ABST": "Custom Blocks & Abstraction",
+  "PARM": "Parameters & Generalization",
+  "EVNT": "Events & Interactivity",
+  "DBUG": "Debugging & Testing",
+  "BRDG": "Python & Turtle Bridge"
+}

@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Computational Thinking,,CTFD
+2,Decomposition,,CTFD
+3,Pattern Recognition,,CTFD
+4,Abstraction,,CTFD
+5,Algorithm Design,1|2,CTFD
+6,Algorithm,5,CTFD
+7,Problem Solving,1,CTFD
+8,Step-By-Step Thinking,6,CTFD
+9,Precise Instructions,6,CTFD
+10,Ambiguity In Instructions,9,CTFD
+11,Generalization,4,CTFD
+12,Efficiency Of A Solution,6,CTFD
+13,Reusability,4,CTFD
+14,Computational Artifact,1,CTFD
+15,Iterative Design,12,CTFD
+16,Planning Before Coding,5,CTFD
+17,Scratch Editor,,INTF
+18,Stage,17,INTF
+19,Sprite,17,INTF
+20,Sprite Costume,19,INTF
+21,Backdrop,18,INTF
+22,Block Palette,17,INTF
+23,Script Area,17,INTF
+24,Block Categories,22,INTF
+25,Motion Blocks,24,INTF
+26,Pen Blocks,24,INTF
+27,Control Blocks,24,INTF
+28,Operator Blocks,24,INTF
+29,Looks Blocks,24,INTF
+30,Sound Blocks,24,INTF
+31,Sensing Blocks,24,INTF
+32,Green Flag,17,INTF
+33,Script,23,SEQC
+34,Sequencing,1|33|8,SEQC
+35,Program Flow,34,SEQC
+36,Block Snapping,33,SEQC
+37,Stack Of Blocks,36,SEQC
+38,Order Of Operations,34,SEQC
+39,Starting A Script,32|33,SEQC
+40,Script Execution,39,SEQC
+41,Top-Down Reading,34,SEQC
+42,Single Script,37,SEQC
+43,Multiple Scripts,42,SEQC
+44,Script Coordination,43,SEQC
+45,Running A Script,40,SEQC
+46,Stopping A Script,45,SEQC
+47,X Coordinate,19,MOTN
+48,Y Coordinate,47,MOTN
+49,Coordinate Plane,47|48,MOTN
+50,Origin Point,49,MOTN
+51,Sprite Heading,19,MOTN
+52,Degrees Of Turn,51,MOTN
+53,Turn Right Block,25|52,MOTN
+54,Turn Left Block,25|52,MOTN
+55,Move Steps Block,25|49,MOTN
+56,Point In Direction,51,MOTN
+57,Go To XY Block,49|25,MOTN
+58,Glide Block,57,MOTN
+59,Absolute Position,49|50,MOTN
+60,Relative Movement,55,MOTN
+61,Facing Direction,51,MOTN
+62,Rotation Style,51|56,MOTN
+63,Pen Down Block,26,DRAW
+64,Pen Up Block,26,DRAW
+65,Pen Trail,63,DRAW
+66,Drawing A Line,63|55|60,DRAW
+67,Drawing An Angle,66|52|61,DRAW
+68,Drawing A Polygon,67|83|2,DRAW
+69,Drawing A Triangle,68|83,DRAW
+70,Drawing A Square,68|83,DRAW
+71,Drawing A Star,68|83,DRAW
+72,Drawing A Spiral,68|85,DRAW
+73,Regular Polygon,68,DRAW
+74,Interior Angle,73,DRAW
+75,Exterior Angle,73,DRAW
+76,Pen Color,26,DRAW
+77,Pen Size,26,DRAW
+78,Stamp Block,26,DRAW
+79,Clear Block,26,DRAW
+80,Generative Art Pattern,72|76|58,DRAW
+81,Loop,34,LOOP
+82,Repeat Block,27|81,LOOP
+83,Fixed-Count Loop,82,LOOP
+84,Repeat Until Block,27|81,LOOP
+85,Condition-Based Loop,84,LOOP
+86,Forever Block,81|27,LOOP
+87,Loop Counter,83,LOOP
+88,Nested Loop,83|85,LOOP
+89,Loop Body,81,LOOP
+90,Exiting A Loop,85,LOOP
+91,Repetition Pattern,3|81,LOOP
+92,Loop Efficiency,12|81,LOOP
+93,Infinite Loop,86|46,LOOP
+94,Loop Iteration,81,LOOP
+95,Variable,1,VARD
+96,Creating A Variable,95,VARD
+97,Naming A Variable,96,VARD
+98,Setting A Variable,96,VARD
+99,Changing A Variable,98,VARD
+100,Variable Value,96,VARD
+101,Side Length Variable,96|68,VARD
+102,Angle Variable,96|67,VARD
+103,Number Of Sides Variable,96|73,VARD
+104,Variable Scope,96,VARD
+105,Global Variable,104,VARD
+106,Local Variable,104,VARD
+107,Data Type,96,VARD
+108,Number Data,107,VARD
+109,String Data,107,VARD
+110,List Concept,107,VARD
+111,Conditional Statement,34|38,COND
+112,If Block,27|111,COND
+113,If-Else Block,112,COND
+114,Boolean Expression,28,COND
+115,Comparison Operator,28,COND
+116,Logical And,114,COND
+117,Logical Or,114,COND
+118,Logical Not,114,COND
+119,Decision Logic,111,COND
+120,Condition Testing,111,COND
+121,True Or False Value,114,COND
+122,Nested Conditional,113,COND
+123,Branching Logic,119,COND
+124,Wait Until Block,84|111,COND
+125,Custom Block,4|33,ABST
+126,Make A Block Feature,125,ABST
+127,Block Definition,126,ABST
+128,Block Name,127,ABST
+129,Procedural Abstraction,4|125|2,ABST
+130,Function Concept,129,ABST
+131,Procedure Concept,129,ABST
+132,Reusable Procedure,13|130,ABST
+133,Calling A Block,127,ABST
+134,Block Body,127,ABST
+135,Single Responsibility,129,ABST
+136,Well-Designed Block,135,ABST
+137,Draw Square Block,70|126,ABST
+138,Draw Polygon Block,68|126,ABST
+139,Block Library,132,ABST
+140,Composing Blocks,139,ABST
+141,Nested Custom Blocks,133|140,ABST
+142,Refactoring A Script,15|129,ABST
+143,Parameter,127,PARM
+144,Adding A Parameter,143,PARM
+145,Parameter Type,143,PARM
+146,Number Parameter,145|108,PARM
+147,Text Parameter,145|109,PARM
+148,Boolean Parameter,145|114,PARM
+149,Generalizing A Procedure,11|144,PARM
+150,Default Value,143,PARM
+151,Argument Value,143,PARM
+152,Multiple Parameters,144,PARM
+153,Event,24,EVNT
+154,Event Block,153|27,EVNT
+155,When Green Flag Clicked,32|154,EVNT
+156,When Key Pressed,154,EVNT
+157,When Sprite Clicked,154,EVNT
+158,Broadcast Block,154,EVNT
+159,Receive Message Block,158,EVNT
+160,Mouse Input,153,EVNT
+161,Keyboard Input,153,EVNT
+162,Event-Driven Program,153|34|44,EVNT
+163,Triggering A Script,155,EVNT
+164,User Interaction,160|161,EVNT
+165,Input Handling,164,EVNT
+166,Sensing User Input,31|164,EVNT
+167,Debugging,1,DBUG
+168,Bug,167,DBUG
+169,Reading A Script,34,DBUG
+170,Isolating An Error,168|169,DBUG
+171,Testing Incrementally,167,DBUG
+172,Trace A Script,169,DBUG
+173,Predicting Output,172,DBUG
+174,Expected Behavior,173,DBUG
+175,Actual Behavior,173,DBUG
+176,Error Diagnosis,170,DBUG
+177,Logical Error,176,DBUG
+178,Syntax Mismatch,176|10,DBUG
+179,Test Case,171,DBUG
+180,Code Review,169|136|41,DBUG
+181,Python Language,6,BRDG
+182,Text-Based Programming,181,BRDG
+183,Turtle Module,181|68,BRDG
+184,Forward Function,183|55,BRDG
+185,Backward Function,183|55,BRDG
+186,Left Turn Function,183|54,BRDG
+187,Right Turn Function,183|53,BRDG
+188,Pen Up Function,183|64,BRDG
+189,Pen Down Function,183|63,BRDG
+190,Block-To-Text Mapping,182|129,BRDG
+191,Syntax Versus Concept,190,BRDG
+192,Typing Code,182,BRDG
+193,Indentation Concept,182|82,BRDG
+194,Function Call Syntax,182|130,BRDG
+195,Conceptual Bridge,190,BRDG
+196,Transition To Python,195,BRDG
+197,Capstone Project,140|196|7|16,CTFD
+198,Algorithm Flowchart,6,CTFD
+199,Pseudocode,198,CTFD
+200,Project Presentation,197|14,CTFD
