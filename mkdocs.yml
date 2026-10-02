@@ -30,6 +30,14 @@ nav:
     - List of Labs: labs/index.md
     - Draw a Square: labs/draw-a-square/index.md
 
+  - MicroSims:
+    - List of MicroSims: sims/index.md
+    - Abstraction Layers Explorer: sims/abstraction-layers-explorer/index.md
+    - Algorithm Design Flowchart: sims/algorithm-design-flow/index.md
+    - Decomposing a House Drawing: sims/house-decomposition-tree/index.md
+    - Step-by-Step Trace Walker: sims/trace-walker/index.md
+    - The Four Powers of Computational Thinking: sims/four-powers-explorer/index.md
+
 
 
   - Learning Graph:

@@ -1,0 +1,82 @@
+{
+  "title": "The Four Powers of Computational Thinking",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Computational Thinking",
+    "Decomposition",
+    "Pattern Recognition",
+    "Abstraction",
+    "Algorithm Design",
+    "Scratch"
+  ],
+  "description": "Interactive infographic with four clickable cards, one for each power of computational thinking: decomposition, pattern recognition, abstraction and algorithm design. Clicking a card shows a one-sentence definition, a school-life example and a Scratch example, and a counter tracks how many powers the student has explored.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/scratch/sims/four-powers-explorer/",
+  "educational": {
+    "gradeLevel": [
+      "3",
+      "4",
+      "5"
+    ],
+    "subjectArea": "Computer Science",
+    "topic": "The four powers of computational thinking",
+    "learningObjectives": [
+      "Given the name of one of the four powers of computational thinking, explain in your own words what that power means and give one everyday example of it."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 500
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10 (CDN)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "clickable card",
+        "label": "Decomposition, Pattern Recognition, Abstraction, Algorithm Design",
+        "description": "Click a card to select it and show its definition and examples"
+      },
+      {
+        "type": "button",
+        "label": "Start Over",
+        "description": "Clears the selection and the explored counter"
+      }
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Click-to-reveal exploration with concrete examples",
+    "keyQuestions": [
+      "What does each of the four powers mean in your own words?",
+      "Which power are you using when you notice that all four sides of a square are drawn the same way?",
+      "Can you think of a new everyday example for each power?"
+    ],
+    "commonMisconceptions": [
+      "Computational thinking means thinking like a robot. It is really the human work of making a problem clear enough for a computer to follow.",
+      "Abstraction removes the details. It only hides them behind a name."
+    ],
+    "assessmentOpportunities": [
+      "Name a power and ask the student to explain it before clicking the card to check.",
+      "Ask the student for an everyday example that is not shown in the panel."
+    ]
+  },
+  "chapter": "01-computational-thinking-foundations"
+}

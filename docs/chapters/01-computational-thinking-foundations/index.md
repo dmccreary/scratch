@@ -128,6 +128,9 @@ know it is the place where the results appear.
 
 #### Diagram: The Four Powers of Computational Thinking
 
+<iframe src="../../sims/four-powers-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+[Run The Four Powers of Computational Thinking Fullscreen](../../sims/four-powers-explorer/main.html)
+
 <details markdown="1">
 <summary>The Four Powers of Computational Thinking</summary>
 Type: interactive-infographic
@@ -280,6 +283,9 @@ is more detailed and less fuzzy than the one above.
 
 #### Diagram: Decomposing a House Drawing
 
+<iframe src="../../sims/house-decomposition-tree/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Decomposing a House Drawing Fullscreen](../../sims/house-decomposition-tree/main.html)
+
 <details markdown="1">
 <summary>Decomposing a House Drawing</summary>
 Type: interactive-diagram
@@ -411,6 +417,9 @@ put them side by side.
 | **Scratch feature it leads to** | Separate scripts | Repeat blocks (Chapter 5) | Custom blocks (Chapter 9) |
 
 #### Diagram: Abstraction Layers Explorer
+
+<iframe src="../../sims/abstraction-layers-explorer/main.html" width="100%" height="482px" scrolling="no"></iframe>
+[Run Abstraction Layers Explorer Fullscreen](../../sims/abstraction-layers-explorer/main.html)
 
 <details markdown="1">
 <summary>Abstraction Layers Explorer</summary>
@@ -638,6 +647,9 @@ program and the real program stopped agreeing.
 
 #### Diagram: Step-by-Step Trace Walker
 
+<iframe src="../../sims/trace-walker/main.html" width="100%" height="522px" scrolling="no"></iframe>
+[Run Step-by-Step Trace Walker Fullscreen](../../sims/trace-walker/main.html)
+
 <details markdown="1">
 <summary>Step-by-Step Trace Walker</summary>
 Type: microsim
@@ -723,6 +735,9 @@ Here is the finished design, written in plain words:
 Three lines. That is what all four powers working together looks like.
 
 #### Diagram: Algorithm Design Flowchart
+
+<iframe src="../../sims/algorithm-design-flow/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Algorithm Design Flowchart Fullscreen](../../sims/algorithm-design-flow/main.html)
 
 <details markdown="1">
 <summary>Algorithm Design Flowchart</summary>

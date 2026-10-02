@@ -1,0 +1,83 @@
+{
+  "title": "Decomposing a House Drawing",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Computational Thinking",
+    "Decomposition",
+    "Turtle Graphics",
+    "Scratch"
+  ],
+  "description": "Clickable tree diagram that decomposes the job 'draw a house' across four levels, from the whole job down to single Scratch blocks. Clicking a box tells the student whether that piece is small enough to program, gives the reason, and highlights the path back to the top job.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/scratch/sims/house-decomposition-tree/",
+  "canvasHeight": 600,
+  "educational": {
+    "gradeLevel": [
+      "3",
+      "4",
+      "5"
+    ],
+    "subjectArea": "Computer Science",
+    "topic": "Decomposition",
+    "learningObjectives": [
+      "Given a drawing task, identify which parts of the task are still too big to program and which parts are small enough to become a single instruction."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "A program is a list of steps done in order"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 (CDN)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "clickable node",
+        "label": "Tree boxes",
+        "description": "Click a box to see whether it is small enough to program and to highlight its path to the top job; hover for a Yes / Not yet tooltip"
+      },
+      {
+        "type": "background click",
+        "label": "Empty background",
+        "description": "Clears the highlight"
+      }
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, then click to check; path highlighting links each small step to the big job it belongs to",
+    "keyQuestions": [
+      "Which boxes are small enough to be one Scratch block?",
+      "Why is 'Draw one side' not small enough yet?",
+      "Which big job does 'Turn right 120 degrees' belong to?"
+    ],
+    "commonMisconceptions": [
+      "A step that sounds short, such as 'turn one corner', is already precise. It is not, because it does not say how far to turn.",
+      "Every corner is a 90 degree turn. A triangle corner is a 120 degree turn."
+    ],
+    "assessmentOpportunities": [
+      "Ask the student to predict Yes or Not yet for each box before clicking.",
+      "Have the student draw a decomposition tree for a new drawing job."
+    ]
+  },
+  "chapter": "01-computational-thinking-foundations"
+}
