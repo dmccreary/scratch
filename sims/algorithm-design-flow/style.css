@@ -1,0 +1,131 @@
+/* Algorithm Design Flowchart - layout
+ * A fixed-height column: title, flowchart, infobox. The total height must
+ * match the CANVAS_HEIGHT comment in algorithm-design-flow.js. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 700px;               /* CANVAS_HEIGHT */
+    background-color: aliceblue;
+    border: 1px solid silver;
+    overflow: hidden;
+}
+
+.title {
+    flex: 0 0 auto;
+    padding: 9px 10px 4px 10px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+/* ---------- flowchart ---------- */
+.chart-wrap {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.chart {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.chart svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* soften the corners of the rectangular boxes */
+.chart .node rect {
+    rx: 7px;
+    ry: 7px;
+}
+
+/* every box answers a click, so every box gets the pointer and a thicker
+   border on hover (the fills come from the classDef lines in the .js file) */
+.chart .node {
+    cursor: pointer;
+}
+
+/* #chart is used here (not .chart) so these rules outrank the id-based
+   rules Mermaid writes into the SVG for each classDef */
+#chart .node:hover rect,
+#chart .node:hover polygon {
+    stroke-width: 3px !important;
+}
+
+#chart .node.selected rect,
+#chart .node.selected polygon {
+    stroke: #333333 !important;
+    stroke-width: 4px !important;
+}
+
+.chart .edgeLabel {
+    font-size: 16px;
+    color: #333333;
+    background-color: aliceblue !important;
+}
+
+.chart .edgeLabel rect,
+.chart .labelBkg {
+    fill: aliceblue !important;
+    background-color: aliceblue !important;
+}
+
+/* ---------- infobox, styled like the book's admonition panels ---------- */
+.infobox {
+    flex: 0 0 132px;
+    margin: 0 10px 10px 10px;
+    background-color: white;
+    border: 1px solid #642580;
+    border-left-width: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    color: #333333;
+}
+
+.info-title {
+    padding: 6px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgba(100, 37, 128, 0.1);
+}
+
+.info-body {
+    padding: 6px 12px 8px 12px;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.info-body p {
+    margin: 0 0 5px 0;
+}
+
+.info-prompt {
+    font-style: italic;
+    color: dimgray;
+}
+
+@media (max-width: 480px) {
+    .title      { font-size: 20px; }
+    .info-title { font-size: 15px; padding: 5px 10px; }
+    .info-body  { font-size: 14px; padding: 5px 10px; }
+}

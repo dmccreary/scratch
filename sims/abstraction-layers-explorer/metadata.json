@@ -1,0 +1,93 @@
+{
+  "title": "Abstraction Layers Explorer",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Computational Thinking",
+    "Abstraction",
+    "Custom Blocks",
+    "Scratch"
+  ],
+  "description": "A student peels back the layers of an abstraction. A detail-level slider opens one named block, draw flower, into three blocks and then into eight machine steps, and a checkbox shows how many things there are to remember at each layer.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/scratch/sims/abstraction-layers-explorer/",
+  "educational": {
+    "gradeLevel": [
+      "3",
+      "4",
+      "5"
+    ],
+    "subjectArea": "Computer Science",
+    "topic": "Abstraction",
+    "learningObjectives": [
+      "Explain that naming a group of steps hides detail without removing it.",
+      "State how many underlying steps a single named block stands for."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Decomposition: a big job is made of smaller jobs"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 480
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10 (CDN)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "slider",
+        "label": "Detail level",
+        "min": 1,
+        "max": 3,
+        "step": 1,
+        "default": 1,
+        "description": "How many layers of detail are showing"
+      },
+      {
+        "type": "checkbox",
+        "label": "Show step count",
+        "default": false,
+        "description": "Shows how many things there are to remember in each band"
+      },
+      {
+        "type": "button",
+        "label": "Reset",
+        "description": "Returns the slider to 1 and turns the step count off"
+      }
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Step-through reveal: the student predicts what a name hides, then opens one layer at a time",
+    "keyQuestions": [
+      "How many steps are hiding inside the name draw flower?",
+      "When you slide back to level 1, did the steps go away?",
+      "Why is one name easier to think about than eight steps?"
+    ],
+    "commonMisconceptions": [
+      "Abstraction deletes the details. It only hides them; the computer still does every step.",
+      "A shorter description is missing something. It means the same steps under a name."
+    ],
+    "assessmentOpportunities": [
+      "Ask the student to predict the number of hidden steps before moving the slider.",
+      "Have the student write a name and its hidden steps for an everyday job."
+    ]
+  },
+  "chapter": "01-computational-thinking-foundations"
+}

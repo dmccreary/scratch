@@ -1,0 +1,117 @@
+{
+  "title": "Step-by-Step Trace Walker",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Computational Thinking",
+    "Tracing",
+    "Step-by-Step Thinking",
+    "Turtle Graphics",
+    "Scratch"
+  ],
+  "description": "Runs a short list of turtle motion instructions one line at a time on a Scratch-style coordinate grid. With Predict on, the student chooses whether the next line changes the position or the heading before the turtle moves, then sees the readout, trail and instruction list update.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/scratch/sims/trace-walker/",
+  "educational": {
+    "gradeLevel": [
+      "3",
+      "4",
+      "5"
+    ],
+    "subjectArea": "Computer Science",
+    "topic": "Tracing a program step by step",
+    "learningObjectives": [
+      "Given a short list of motion instructions and a starting position and heading, predict the turtle's position and heading after each instruction."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Position (0, 0) is the middle of the stage",
+      "Moving changes position; turning changes heading"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 520
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10 (CDN)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "button",
+        "label": "Next step",
+        "description": "Runs exactly one instruction; disabled after the last line until Reset"
+      },
+      {
+        "type": "button",
+        "label": "Reset",
+        "description": "Returns the turtle to (0, 0) facing right and clears the trail"
+      },
+      {
+        "type": "checkbox",
+        "label": "Predict",
+        "default": true,
+        "description": "When on, the student must choose Position changes or Heading changes before each step runs"
+      },
+      {
+        "type": "select",
+        "label": "Program",
+        "options": [
+          "Two sides of a square",
+          "A whole square"
+        ],
+        "default": "Two sides of a square"
+      },
+      {
+        "type": "button",
+        "label": "Position changes / Heading changes",
+        "description": "The two prediction answers, shown in the banner above the stage while a question is waiting"
+      }
+    ]
+  },
+  "simulation": {
+    "modelType": "Turtle graphics state machine",
+    "variables": [
+      "position (x, y)",
+      "heading (right, down, left, up)"
+    ],
+    "assumptions": [
+      "The pen is always down",
+      "The turtle starts at (0, 0) facing right",
+      "Every move is 100 steps and every turn is 90 degrees to the right"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, then observe: single-step execution with a prediction before every line",
+    "keyQuestions": [
+      "Does this line change the position or the heading?",
+      "Where will the turtle be after this line, and which way will it face?",
+      "What pattern do you see in the 'what changed' labels?"
+    ],
+    "commonMisconceptions": [
+      "Turning moves the turtle. Turning only changes the heading.",
+      "Moving changes the way the turtle faces. Moving never changes the heading.",
+      "Turn right always means face the right side of the screen. It means turn clockwise from the way the turtle is facing now."
+    ],
+    "assessmentOpportunities": [
+      "Have the student fill in a paper trace table before each step and check it against the readout.",
+      "Ask the student to predict the final position and heading of the whole-square program."
+    ]
+  },
+  "chapter": "01-computational-thinking-foundations"
+}

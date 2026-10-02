@@ -1,0 +1,16 @@
+when green flag clicked
+erase all
+set pen size to (5)
+pen down
+move (100) steps
+wait (1) seconds
+turn right (90) degrees
+move (100) steps
+wait (1) seconds
+turn right (90) degrees
+move (100) steps
+wait (1) seconds
+turn right (90) degrees
+move (100) steps
+wait (1) seconds
+turn right (90) degrees

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Resources for teaching Scratch to CoderDojo Twin Cities students.">
+        <meta name="description" content="An introduction to computational thinking for young programmers - decomposition, pattern recognition, abstraction, and algorithm design - taught with everyday examples before any code is written.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -25,15 +25,15 @@
       
       
       <link rel="icon" href="../../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>1. Computational Thinking Foundations - CoderDojo TC Scratch</title>
+        <title>Computational Thinking Foundations - Scratch</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -55,7 +55,11 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="../../css/scratchblocks.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -96,9 +100,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CoderDojo TC Scratch" class="md-header__button md-logo" aria-label="CoderDojo TC Scratch" data-md-component="logo">
+    <a href="../.." title="Scratch" class="md-header__button md-logo" aria-label="Scratch" data-md-component="logo">
       
-  <img src="../../img/coderdojo-logo.png" alt="logo">
+  <img src="../../img/mascot/welcome.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,13 +113,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            CoderDojo TC Scratch
+            Scratch
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. Computational Thinking Foundations
+              Computational Thinking Foundations
             
           </span>
         </div>
@@ -175,7 +179,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    Scratch
+    GitHub Repo
   </div>
 </a>
       </div>
@@ -205,12 +209,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CoderDojo TC Scratch" class="md-nav__button md-logo" aria-label="CoderDojo TC Scratch" data-md-component="logo">
+    <a href="../.." title="Scratch" class="md-nav__button md-logo" aria-label="Scratch" data-md-component="logo">
       
-  <img src="../../img/coderdojo-logo.png" alt="logo">
+  <img src="../../img/mascot/welcome.png" alt="logo">
 
     </a>
-    CoderDojo TC Scratch
+    Scratch
   </label>
   
     <div class="md-nav__source">
@@ -220,7 +224,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    Scratch
+    GitHub Repo
   </div>
 </a>
     </div>
@@ -285,533 +289,6 @@
       
   
   
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Intro
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/01-getting-started/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../labs/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Summary of Labs
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/02-list-of-blocks-used-in-intro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Adding the Pen Extension
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/03-first-square/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Drawing A Square
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/04-variables-square/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Variables
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/05-loops/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Loops
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/06-functions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Functions
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro/07-functions-with-parameters/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Functions With Parameters
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../presentations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Presentations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Learning Graph
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Learning Graph
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Introduction
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Course Description Assessment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/concept-list/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Concept Enumeration
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Graph Quality Analysis
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Concept Taxonomy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Taxonomy Distribution Report
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -825,10 +302,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -846,8 +323,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -978,6 +455,397 @@
     <span class="md-ellipsis">
       
         Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#you-already-think-like-a-programmer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        You Already Think Like a Programmer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="You Already Think Like a Programmer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computational-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Thinking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Computational Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-four-powers-of-computational-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: The Four Powers of Computational Thinking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-solving-where-programs-come-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Solving: Where Programs Come From
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decomposition-breaking-it-into-pieces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decomposition: Breaking It Into Pieces
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decomposition: Breaking It Into Pieces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-drawing-a-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Drawing a House
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Drawing a House">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-decomposing-a-house-drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Decomposing a House Drawing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pattern-recognition-spotting-what-repeats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern Recognition: Spotting What Repeats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstraction-giving-it-a-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstraction: Giving It a Name
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abstraction: Giving It a Name">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-the-draw-square-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: The "Draw Square" Name
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: The &#34;Draw Square&#34; Name">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-abstraction-layers-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Abstraction Layers Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithms-a-plan-somebody-else-could-follow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algorithms: A Plan Somebody Else Could Follow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithms: A Plan Somebody Else Could Follow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-the-sandwich-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: The Sandwich Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precise-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Precise Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiguity-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiguity in Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step Thinking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-tracing-four-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Tracing Four Instructions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Tracing Four Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-step-by-step-trace-walker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Step-by-Step Trace Walker
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algorithm Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithm Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-designing-the-square-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Designing the Square Algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Designing the Square Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-algorithm-design-flowchart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Algorithm Design Flowchart
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning-before-coding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planning Before Coding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#judging-a-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Judging a Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Judging a Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#efficiency-of-a-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency of a Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reusability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iterative-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Iterative Design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#computational-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
       
     </span>
   </a>
@@ -1342,6 +1210,1057 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Labs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Labs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../labs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    List of Labs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../labs/draw-a-square/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Draw a Square
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MicroSims
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    List of MicroSims
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/abstraction-layers-explorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abstraction Layers Explorer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/algorithm-design-flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algorithm Design Flowchart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/house-decomposition-tree/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decomposing a House Drawing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/trace-walker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step-by-Step Trace Walker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/four-powers-explorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Four Powers of Computational Thinking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Enumeration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graph Quality Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/mascot-test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mascot Style Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legacy Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Legacy Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/01-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/02-list-of-blocks-used-in-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding the Pen Extension
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/03-first-square/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Draw A Square (the hard way)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/04-variables-square/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Draw A Square With Variables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/05-loops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Draw A Square With A Repeat Loop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/06-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding Your Own Function Blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legacy-content/07-functions-with-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functions with Parameters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teachers Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Teachers Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teachers-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teachers-guide/scratchblocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scratchblocks Notation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teachers-guide/sb3-file-format/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inside the .sb3 File
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../contact/" class="md-nav__link">
         
@@ -1422,6 +2341,397 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#you-already-think-like-a-programmer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        You Already Think Like a Programmer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="You Already Think Like a Programmer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computational-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Thinking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Computational Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-the-four-powers-of-computational-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: The Four Powers of Computational Thinking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-solving-where-programs-come-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Solving: Where Programs Come From
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decomposition-breaking-it-into-pieces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decomposition: Breaking It Into Pieces
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decomposition: Breaking It Into Pieces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-drawing-a-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Drawing a House
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Drawing a House">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-decomposing-a-house-drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Decomposing a House Drawing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pattern-recognition-spotting-what-repeats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern Recognition: Spotting What Repeats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstraction-giving-it-a-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstraction: Giving It a Name
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abstraction: Giving It a Name">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-the-draw-square-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: The "Draw Square" Name
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: The &#34;Draw Square&#34; Name">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-abstraction-layers-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Abstraction Layers Explorer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithms-a-plan-somebody-else-could-follow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algorithms: A Plan Somebody Else Could Follow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithms: A Plan Somebody Else Could Follow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-the-sandwich-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: The Sandwich Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#precise-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Precise Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiguity-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiguity in Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step Thinking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-tracing-four-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Tracing Four Instructions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Tracing Four Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-step-by-step-trace-walker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Step-by-Step Trace Walker
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Algorithm Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithm Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-worked-example-designing-the-square-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Worked Example: Designing the Square Algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A Worked Example: Designing the Square Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-algorithm-design-flowchart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Algorithm Design Flowchart
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning-before-coding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planning Before Coding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#judging-a-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Judging a Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Judging a Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#efficiency-of-a-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency of a Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reusability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iterative-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Iterative Design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#computational-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1442,39 +2752,1084 @@
   
 
 
-<h1 id="computational-thinking-foundations">Computational Thinking Foundations</h1>
-<h2 id="summary">Summary</h2>
+<h1 id="computational-thinking-foundations">Computational Thinking Foundations<a class="headerlink" href="#computational-thinking-foundations" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
 <p>This chapter introduces the vocabulary of computational thinking, including decomposition, pattern recognition, abstraction, algorithm design, and precise instructions. Students learn to break problems into steps, recognize ambiguity in instructions, and think about efficiency, reusability, and iterative design before writing any code. These ideas form the mental toolkit that the rest of the course builds on. After completing this chapter, students will be able to describe a problem-solving process in clear, step-by-step, unambiguous terms.</p>
-<h2 id="concepts-covered">Concepts Covered</h2>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
 <p>This chapter covers the following 16 concepts from the learning graph:</p>
-<ol>
-<li>Computational Thinking</li>
-<li>Decomposition</li>
-<li>Pattern Recognition</li>
-<li>Abstraction</li>
-<li>Algorithm Design</li>
-<li>Algorithm</li>
-<li>Problem Solving</li>
-<li>Step-By-Step Thinking</li>
-<li>Precise Instructions</li>
-<li>Ambiguity In Instructions</li>
-<li>Generalization</li>
-<li>Efficiency Of A Solution</li>
-<li>Reusability</li>
-<li>Computational Artifact</li>
-<li>Iterative Design</li>
-<li>Planning Before Coding</li>
-</ol>
-<h2 id="prerequisites">Prerequisites</h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Concept Impact Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computational Thinking</td>
+<td>215</td>
+</tr>
+<tr>
+<td>Decomposition</td>
+<td>149</td>
+</tr>
+<tr>
+<td>Pattern Recognition</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Abstraction</td>
+<td>69</td>
+</tr>
+<tr>
+<td>Algorithm Design</td>
+<td>108</td>
+</tr>
+<tr>
+<td>Algorithm</td>
+<td>104</td>
+</tr>
+<tr>
+<td>Problem Solving</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Step-By-Step Thinking</td>
+<td>76</td>
+</tr>
+<tr>
+<td>Precise Instructions</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ambiguity In Instructions</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Generalization</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Efficiency Of A Solution</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Reusability</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Computational Artifact</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Iterative Design</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Planning Before Coding</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <p>This chapter assumes only the prerequisites listed in the <a href="../../course-description/">course description</a>.</p>
 <hr />
-<p>TODO: Generate Chapter Content</p>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Hello! I am Cody</p>
+<p><img alt="Cody waving hello" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+I am Cody, a CoderDojo turtle, and I will be with you in every chapter of
+this book. When you see me waving like this, a new chapter is starting.
+When I am <strong>thinking</strong>, I will ask you to predict what happens next. When I
+have a <strong>tip</strong>, I will show you a shortcut. When I hold up a <strong>warning</strong>, I
+will point out a mistake that catches almost everybody. When I am
+<strong>cheering you on</strong>, the part you are reading is a hard one and getting
+stuck there is normal. And when I am <strong>celebrating</strong>, you have finished
+something worth being proud of. One step at a time!</p>
+</div>
+<h2 id="you-already-think-like-a-programmer">You Already Think Like a Programmer<a class="headerlink" href="#you-already-think-like-a-programmer" title="Permanent link">&para;</a></h2>
+<p>You have never written a program. That is fine. You have still done the
+hardest part of programming many, many times.</p>
+<p>Think about tying your shoes. Nobody tied them for you today. You pulled the
+laces tight. You made one loop. You wrapped the other lace around it. You
+pushed it through the hole and pulled. You did those steps in that order,
+every time, without stopping to think about it.</p>
+<p>That is a <strong>program</strong>. It is a list of steps, done in order, that solves a
+problem. The only new thing in this book is <em>who</em> does the steps. Instead of
+your hands doing them, a computer will.</p>
+<p>Computers are fast and they never get tired. But computers cannot guess. A
+computer will do exactly what you say, in exactly the order you say it, even
+when what you said is not what you meant. So the skill you need is not
+typing. It is <strong>thinking clearly</strong>.</p>
+<p>That skill has a name.</p>
+<h3 id="computational-thinking">Computational Thinking<a class="headerlink" href="#computational-thinking" title="Permanent link">&para;</a></h3>
+<p><strong>Computational thinking</strong> is the way of thinking that lets you solve a
+problem so clearly that a computer could follow your solution.</p>
+<p>It is not "thinking like a robot." It is closer to the opposite. A robot
+cannot decide <em>what</em> to do. You do that part. You look at a messy, confusing
+problem and you turn it into something clear, small, and ordered. Then the
+machine takes over.</p>
+<p>Here is what makes computational thinking different from just being smart.
+When you think computationally, you have to say every single step out loud.
+You cannot leave anything out and hope the listener fills in the gap.</p>
+<p>Let us try it. Imagine you have to tell a friend how to get ready for school
+in the morning. You might say:</p>
+<blockquote>
+<p>"Get up, get dressed, eat breakfast, grab your backpack, go."</p>
+</blockquote>
+<p>That is good enough for a friend. Your friend already knows how to get
+dressed. But a computer does not. A computer would stop at "get dressed" and
+have no idea what to do. Getting dressed is really many smaller steps:</p>
+<ol>
+<li>Open the drawer.</li>
+<li>Take out a shirt.</li>
+<li>Put your head through the neck hole.</li>
+<li>Put your left arm through the left sleeve.</li>
+<li>Put your right arm through the right sleeve.</li>
+<li>Pull the shirt down.</li>
+</ol>
+<p>Notice something. The second list is not smarter than the first list. It is
+just more <strong>complete</strong>. That is the whole trick. Computational thinking means
+being willing to say the boring, obvious steps out loud, because the computer
+genuinely does not know them.</p>
+<p>Computational thinking is made of four powers. You will use all four in every
+project in this book:</p>
+<table>
+<thead>
+<tr>
+<th>Power</th>
+<th>What it means</th>
+<th>Everyday example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decomposition</td>
+<td>Break a big problem into small pieces</td>
+<td>Cleaning your room one shelf at a time</td>
+</tr>
+<tr>
+<td>Pattern recognition</td>
+<td>Notice what repeats</td>
+<td>Every jumping jack is the same move</td>
+</tr>
+<tr>
+<td>Abstraction</td>
+<td>Give the details a short name and hide them</td>
+<td>Saying "make a sandwich" instead of 12 steps</td>
+</tr>
+<tr>
+<td>Algorithm design</td>
+<td>Put the steps in the right order</td>
+<td>A recipe you can hand to somebody else</td>
+</tr>
+</tbody>
+</table>
+<p>That table is a map of the rest of this chapter. We will take each power one
+at a time, in that order, because each one leans on the one before it.</p>
+<p>Before we look at our first picture, here is the one word in it you have not
+met yet. A <strong>stage</strong> is the white rectangle in Scratch where your program's
+drawing shows up. You will meet the real stage in Chapter 2. For now, just
+know it is the place where the results appear.</p>
+<h4 id="diagram-the-four-powers-of-computational-thinking">Diagram: The Four Powers of Computational Thinking<a class="headerlink" href="#diagram-the-four-powers-of-computational-thinking" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/four-powers-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+<p><a href="../../sims/four-powers-explorer/main.html">Run The Four Powers of Computational Thinking Fullscreen</a></p>
+<details>
+<summary>The Four Powers of Computational Thinking</summary>
+<p>Type: interactive-infographic
+<strong>sim-id:</strong> four-powers-explorer<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p>An interactive infographic that lets a student explore the four powers of computational thinking by clicking on them.</p>
+<p><strong>Learning objective (Bloom: Understand):</strong> Given the name of one of the four powers of computational thinking, the student can explain in their own words what that power means and give one everyday example of it.</p>
+<p><strong>Layout.</strong> A responsive canvas, default 800 x 500 pixels, that resizes on the browser window resize event and never scrolls horizontally on a tablet in portrait orientation. The canvas is divided into two regions: a left region (about 55% of the width) holding four large clickable cards arranged in a 2 x 2 grid, and a right region (about 45%) holding an infobox that displays the selected card's detail.</p>
+<p><strong>The four cards.</strong> Each card is a rounded rectangle 240 x 170 pixels with an 18-pixel-tall title, a simple line-art icon drawn in code (no external image files), and a one-line subtitle:</p>
+<ul>
+<li>Card 1, top-left, "Decomposition", subtitle "Break it into pieces". Icon: one large square that splits into four small squares.</li>
+<li>Card 2, top-right, "Pattern Recognition", subtitle "Spot what repeats". Icon: a row of three identical small triangles.</li>
+<li>Card 3, bottom-left, "Abstraction", subtitle "Give it a name". Icon: a labeled box with the label "draw square" and the details greyed out behind it.</li>
+<li>Card 4, bottom-right, "Algorithm Design", subtitle "Put it in order". Icon: three numbered steps connected by downward arrows.</li>
+</ul>
+<p><strong>Colors.</strong> Card fills use the book's palette: decomposition #4C97FF (Scratch motion blue), pattern recognition #FFAB19 (Scratch control orange), abstraction #9966FF (Scratch custom-block purple), algorithm design #0FBD8C (Scratch pen green). Card text is white. The infobox is a #F5F5F5 panel with #333333 text. The selected card is drawn with a 4-pixel white inner border and a slight scale-up of 1.05 so the selection is obvious.</p>
+<p><strong>Interaction.</strong></p>
+<ol>
+<li>On hover, a card lifts by 4 pixels and the mouse cursor becomes a pointer, so the student can tell the cards are clickable before clicking.</li>
+<li>On click, the card becomes selected and the infobox fills with three things: a one-sentence definition, a school-life example, and a Scratch example written in child-friendly language.</li>
+<li>Only one card can be selected at a time. Clicking the selected card again does not deselect it, so the infobox is never empty after the first click.</li>
+<li>On first load, before any click, the infobox shows the prompt text "Click a card to learn about that power." in italic grey.</li>
+<li>A small counter at the bottom of the infobox reads "Explored: 2 of 4" and updates as the student clicks new cards. When all four have been visited, the counter is replaced by the message "You have explored all four powers!" in the pen-green color.</li>
+</ol>
+<p><strong>Infobox content.</strong></p>
+<ul>
+<li>Decomposition: "Breaking a big problem into smaller problems you can solve one at a time." School example: "A book report is really: read the book, pick your favorite part, write about it, check your spelling." Scratch example: "Drawing a house is really: draw a square, then draw a triangle on top."</li>
+<li>Pattern Recognition: "Noticing when the same thing happens more than once." School example: "Every multiplication problem in the row uses the same steps with different numbers." Scratch example: "All four sides of a square use the same move-and-turn pair."</li>
+<li>Abstraction: "Giving a group of steps one short name so you can stop thinking about the details." School example: "You say 'brush your teeth' instead of listing eight separate steps." Scratch example: "You make a block called 'draw square' and just use its name after that."</li>
+<li>Algorithm Design: "Putting your steps in an order that actually works." School example: "You have to put on socks before shoes, not after." Scratch example: "Pen down has to come before you move, or nothing gets drawn."</li>
+</ul>
+<p>Implementation: p5.js sketch in main.html with a responsive canvas. Card positions are recomputed in windowResized() so the 2 x 2 grid becomes a 1 x 4 stack when the canvas is narrower than 600 pixels, with the infobox moving below the cards.</p>
+</details>
+<h2 id="problem-solving-where-programs-come-from">Problem Solving: Where Programs Come From<a class="headerlink" href="#problem-solving-where-programs-come-from" title="Permanent link">&para;</a></h2>
+<p>Every program starts as a <strong>problem</strong>. In everyday talk, a "problem" sounds
+like something bad. In computing it just means <em>something you want to be
+different</em>.</p>
+<p>Here are real problems a young programmer might have:</p>
+<ul>
+<li>I want a turtle to draw a square on the screen.</li>
+<li>I want a spelling word to appear when I press a key.</li>
+<li>I want a flower shape made of eight circles.</li>
+</ul>
+<p><strong>Problem solving</strong> is the work of getting from that wish to a thing that
+actually happens. It has four parts, and programmers do them in this order.</p>
+<ol>
+<li><strong>Understand the problem.</strong> What exactly do you want? "Draw a shape" is
+   too fuzzy. "Draw a square with sides 100 steps long" is a real goal,
+   because you would know if you got it.</li>
+<li><strong>Make a plan.</strong> Decide the steps before you touch anything.</li>
+<li><strong>Do the plan.</strong> Build it.</li>
+<li><strong>Look back.</strong> Did it work? If not, what part went wrong?</li>
+</ol>
+<p>Let us walk through those four parts on a real problem.</p>
+<p><strong>The problem:</strong> You want to give a friend a paper airplane, but your friend
+is sitting on the other side of the classroom and you cannot get up.</p>
+<p><strong>Understand.</strong> The goal is not "throw the plane." The goal is "the plane
+ends up on my friend's desk." That is a much better goal, because you can
+check it.</p>
+<p><strong>Plan.</strong> Aim above your friend's head, because paper planes drop as they
+fly. Throw gently, because hard throws curve. Wait until the teacher is
+facing the board.</p>
+<p><strong>Do.</strong> Throw it.</p>
+<p><strong>Look back.</strong> It landed two desks short. Now you know something useful:
+throw a little harder next time. You did not fail. You collected
+information.</p>
+<p>That last part matters more than people expect. Programmers spend a large
+part of their time on step 4. A program that does not work is not a
+disaster. It is a message telling you which part of your plan was wrong.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Predict First</p>
+<p><img alt="Cody thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Before you run any program in this book, stop and say out loud what you
+think will happen. If you are right, you understood it. If you are wrong,
+you just found something new to learn. What do you think will happen?</p>
+</div>
+<h2 id="decomposition-breaking-it-into-pieces">Decomposition: Breaking It Into Pieces<a class="headerlink" href="#decomposition-breaking-it-into-pieces" title="Permanent link">&para;</a></h2>
+<p><strong>Decomposition</strong> means breaking a big problem into smaller problems, then
+breaking those into even smaller ones, until every piece is small enough to
+solve easily.</p>
+<p>The word looks scary. It just means "taking apart." When leaves decompose in
+the woods, they break down into smaller and smaller bits. When you decompose
+a problem, you do the same thing on purpose.</p>
+<p>Here is why this is the most useful habit in this whole book. A big problem
+makes your brain freeze. "Build a video game" is too big. Nobody can hold
+that in their head. But "make the ball move right" is not scary at all. You
+could do that in a minute. Decomposition turns one frozen problem into a
+list of unfrozen ones.</p>
+<h3 id="a-worked-example-drawing-a-house">A Worked Example: Drawing a House<a class="headerlink" href="#a-worked-example-drawing-a-house" title="Permanent link">&para;</a></h3>
+<p>Say you want the turtle to draw a house. Right now that is one big fuzzy
+job. Let us take it apart.</p>
+<p><strong>First cut.</strong> A house is really two shapes:</p>
+<ol>
+<li>A square for the walls.</li>
+<li>A triangle for the roof.</li>
+</ol>
+<p>Better. But "draw a square" is still a bunch of work for a computer. Let us
+cut again.</p>
+<p><strong>Second cut.</strong> A square is really:</p>
+<ol>
+<li>Draw a side.</li>
+<li>Turn a corner.</li>
+<li>Draw a side.</li>
+<li>Turn a corner.</li>
+<li>Draw a side.</li>
+<li>Turn a corner.</li>
+<li>Draw a side.</li>
+<li>Turn a corner.</li>
+</ol>
+<p>Now cut one more time.</p>
+<p><strong>Third cut.</strong> "Draw a side" is really:</p>
+<ol>
+<li>Put the pen down so it makes a line.</li>
+<li>Move forward 100 steps.</li>
+</ol>
+<p>Stop. That last piece is small enough. "Move forward 100 steps" is a single
+thing you can hand to a computer with no explaining left over. When you reach
+pieces that small, you are done decomposing.</p>
+<p>Look at what happened. You started with "draw a house," which you had no idea
+how to do. You ended with "move forward 100 steps," which is one block. You
+never got smarter along the way. You just kept cutting.</p>
+<p>Before you read the diagram below, here is its one new word. A <strong>level</strong> is
+one row of the breakdown. The top level is the whole job. Each level below it
+is more detailed and less fuzzy than the one above.</p>
+<h4 id="diagram-decomposing-a-house-drawing">Diagram: Decomposing a House Drawing<a class="headerlink" href="#diagram-decomposing-a-house-drawing" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/house-decomposition-tree/main.html" width="100%" height="602px" scrolling="no"></iframe>
+<p><a href="../../sims/house-decomposition-tree/main.html">Run Decomposing a House Drawing Fullscreen</a></p>
+<details>
+<summary>Decomposing a House Drawing</summary>
+<p>Type: interactive-diagram
+<strong>sim-id:</strong> house-decomposition-tree<br/>
+<strong>Library:</strong> vis-network<br/>
+<strong>Status:</strong> Specified</p>
+<p>A clickable tree diagram showing one drawing problem broken down across four levels, from the whole job to single computer instructions.</p>
+<p><strong>Learning objective (Bloom: Analyze):</strong> Given a drawing task, the student can identify which parts of the task are still too big to program and which parts are small enough to become a single instruction.</p>
+<p><strong>Graph structure.</strong> A vis-network hierarchical directed graph, direction up-to-down, level separation 110 pixels, node spacing 160 pixels. Nodes by level:</p>
+<ul>
+<li>Level 0 (one node): "Draw a house"</li>
+<li>Level 1 (two nodes): "Draw the walls (a square)", "Draw the roof (a triangle)"</li>
+<li>Level 2, under the square (two nodes): "Draw one side", "Turn one corner"</li>
+<li>Level 2, under the triangle (two nodes): "Draw one side", "Turn one corner"</li>
+<li>Level 3, under "Draw one side" (two nodes): "Put the pen down", "Move forward 100 steps"</li>
+<li>Level 3, under "Turn one corner" (one node): "Turn right 90 degrees"</li>
+</ul>
+<p><strong>Colors and shape coding.</strong> Nodes are rounded boxes with white 16-pixel label text. Level 0 is #9966FF. Level 1 is #4C97FF. Level 2 is #FFAB19. Level 3 nodes, the ones small enough to become a single Scratch block, are #0FBD8C and carry a small white check-mark glyph before the label. The color change from orange to green is the visual message of the whole diagram: green means "small enough to program."</p>
+<p><strong>Legend.</strong> A fixed legend below the network, drawn in HTML rather than inside the canvas, reads: "Purple = the whole job. Blue and orange = still too big. Green = small enough to be one Scratch block."</p>
+<p><strong>Interaction.</strong></p>
+<ol>
+<li>Clicking any node opens an infobox panel below the network showing the node's label as a heading and two lines: "Is this small enough to program? Yes / Not yet", and a one-sentence reason written for a third grader.</li>
+<li>Clicking a node also highlights the full path from that node up to "Draw a house" by thickening those edges to 4 pixels and dimming all other nodes to 30% opacity, so the student can see which big job the small step belongs to. Clicking the background clears the highlight.</li>
+<li>Hovering a node shows a tooltip with the same "Yes / Not yet" answer, so the answer is reachable without a click.</li>
+<li>The network is not draggable or zoomable by the student, so the layout cannot be accidentally destroyed; physics is disabled and positions are fixed by the hierarchical layout.</li>
+</ol>
+<p><strong>Infobox reasons.</strong></p>
+<ul>
+<li>"Draw a house": Not yet. This is the whole job. It is made of two shapes.</li>
+<li>"Draw the walls (a square)": Not yet. A square is four sides and four corners.</li>
+<li>"Draw the roof (a triangle)": Not yet. A triangle is three sides and three corners.</li>
+<li>"Draw one side": Not yet. You still have to put the pen down first.</li>
+<li>"Turn one corner": Not yet. You have to say how far to turn.</li>
+<li>"Put the pen down": Yes. This is one block in Scratch.</li>
+<li>"Move forward 100 steps": Yes. This is one block in Scratch.</li>
+<li>"Turn right 90 degrees": Yes. This is one block in Scratch.</li>
+</ul>
+<p>Implementation: vis-network in main.html with a responsive container that fills 100% of the iframe width and re-fits the network on the window resize event.</p>
+</details>
+<p>You will use decomposition in every single chapter from here on. When a
+project feels too hard, that is not a sign to give up. It is a sign that you
+have not cut it into small enough pieces yet.</p>
+<h2 id="pattern-recognition-spotting-what-repeats">Pattern Recognition: Spotting What Repeats<a class="headerlink" href="#pattern-recognition-spotting-what-repeats" title="Permanent link">&para;</a></h2>
+<p><strong>Pattern recognition</strong> means noticing when the same thing shows up more than
+once.</p>
+<p>Go back to the square. Look at the eight steps again:</p>
+<ol>
+<li>Draw a side, turn a corner.</li>
+<li>Draw a side, turn a corner.</li>
+<li>Draw a side, turn a corner.</li>
+<li>Draw a side, turn a corner.</li>
+</ol>
+<p>Something jumps out. It is the same two steps, four times. That is a
+pattern.</p>
+<p>Patterns are valuable because they save you work. Once you notice that a
+square is "one pair of steps, repeated four times," you do not have to think
+about the square as eight separate things any more. You only have to think
+about one pair and one number.</p>
+<p>Patterns are everywhere in this course:</p>
+<ul>
+<li>Every side of a polygon is drawn the same way.</li>
+<li>Every corner of a polygon is turned the same way.</li>
+<li>Every flower petal in a flower drawing is the same petal, just facing a
+  different direction.</li>
+</ul>
+<p>In Chapter 5 you will learn about <strong>loops</strong>, which are Scratch blocks that
+repeat other blocks for you. A loop is only useful if you first <em>notice</em> the
+repeat. So pattern recognition is the skill that makes loops possible.</p>
+<h2 id="abstraction-giving-it-a-name">Abstraction: Giving It a Name<a class="headerlink" href="#abstraction-giving-it-a-name" title="Permanent link">&para;</a></h2>
+<p><strong>Abstraction</strong> means giving a group of steps one short name, and then using
+the name instead of the steps.</p>
+<p>You do this constantly. When your family says "let's set the table," nobody
+lists every fork. "Set the table" is a name that stands for a whole pile of
+steps everybody already knows. That name is an abstraction.</p>
+<p>Here is the important part: abstraction does not delete the details. The
+forks still have to get on the table. Abstraction just <em>hides</em> the details so
+your brain can think about bigger things.</p>
+<h3 id="a-worked-example-the-draw-square-name">A Worked Example: The "Draw Square" Name<a class="headerlink" href="#a-worked-example-the-draw-square-name" title="Permanent link">&para;</a></h3>
+<p>Imagine two students describing the same drawing.</p>
+<p><strong>Student A says:</strong></p>
+<blockquote>
+<p>Pen down. Move 100. Turn 90. Move 100. Turn 90. Move 100. Turn 90. Move
+100. Turn 90. Pen up. Move 150. Pen down. Move 100. Turn 90. Move 100.
+Turn 90. Move 100. Turn 90. Move 100. Turn 90. Pen up.</p>
+</blockquote>
+<p><strong>Student B says:</strong></p>
+<blockquote>
+<p>Draw a square. Move over. Draw a square.</p>
+</blockquote>
+<p>Both students described exactly the same picture. Student B's version is not
+missing anything, because "draw a square" already means those eight steps.
+But Student B's version is something a human can actually hold in their head.</p>
+<p>That is the power of abstraction. It does not make the work smaller. It makes
+the <em>thinking</em> smaller.</p>
+<p>In Chapter 9 you will learn Scratch's "Make a Block" feature, which lets you
+create your very own named block. When you make a block called <code class="b">draw
+square</code>, you have done exactly what Student B did. From then on, one
+block does the work of eight.</p>
+<p>Here is a table comparing the three powers you have met so far. You have
+already read about all three in prose above, so this table is only here to
+put them side by side.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Decomposition</th>
+<th>Pattern Recognition</th>
+<th>Abstraction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>What you do</strong></td>
+<td>Cut a big job into small jobs</td>
+<td>Notice a small job repeating</td>
+<td>Name a group of jobs</td>
+</tr>
+<tr>
+<td><strong>Question you ask</strong></td>
+<td>"What is this made of?"</td>
+<td>"Have I seen this before?"</td>
+<td>"What should I call this?"</td>
+</tr>
+<tr>
+<td><strong>What you get</strong></td>
+<td>A list of small pieces</td>
+<td>A repeat you can loop</td>
+<td>One name instead of many steps</td>
+</tr>
+<tr>
+<td><strong>Scratch feature it leads to</strong></td>
+<td>Separate scripts</td>
+<td>Repeat blocks (Chapter 5)</td>
+<td>Custom blocks (Chapter 9)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="diagram-abstraction-layers-explorer">Diagram: Abstraction Layers Explorer<a class="headerlink" href="#diagram-abstraction-layers-explorer" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/abstraction-layers-explorer/main.html" width="100%" height="482px" scrolling="no"></iframe>
+<p><a href="../../sims/abstraction-layers-explorer/main.html">Run Abstraction Layers Explorer Fullscreen</a></p>
+<details>
+<summary>Abstraction Layers Explorer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> abstraction-layers-explorer<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p>A MicroSim in which a student peels back the layers of an abstraction to see the hidden detail underneath, then hides it again.</p>
+<p><strong>Learning objective (Bloom: Understand):</strong> The student can explain that naming a group of steps hides detail without removing it, and can state how many underlying steps a single named block stands for.</p>
+<p><strong>Layout.</strong> Responsive canvas, default 750 x 480 pixels, resizing on window resize. The canvas has a drawing region and a control region. The drawing region shows a vertical stack of three horizontal bands representing three levels of detail, top to bottom:</p>
+<ul>
+<li>Band 1, "What you say": a single purple rounded block labeled <code>draw flower</code>.</li>
+<li>Band 2, "What that means": three blue blocks side by side, labeled <code>draw square</code>, <code>turn right 45</code>, <code>repeat 8 times</code>.</li>
+<li>Band 3, "What the computer does": eight small green blocks labeled <code>pen down</code>, <code>move 100</code>, <code>turn 90</code>, <code>move 100</code>, <code>turn 90</code>, <code>move 100</code>, <code>turn 90</code>, <code>move 100</code>.</li>
+</ul>
+<p><strong>Controls.</strong> Below the drawing region, aligned left with 15-pixel padding and labels to the left of each control:</p>
+<ul>
+<li>A slider labeled "Detail level" with range 1 to 3, step 1, default value 1. At level 1 only band 1 is visible. At level 2 bands 1 and 2 are visible with an animated downward arrow connecting them. At level 3 all three bands are visible.</li>
+<li>A checkbox labeled "Show step count", default off. When on, each band displays a count to its right: "1 thing to remember", "3 things to remember", "8 things to remember."</li>
+<li>A button labeled "Reset" that returns the slider to 1 and the checkbox to off.</li>
+</ul>
+<p><strong>Behavior.</strong> Moving the slider animates the newly revealed band sliding down into place over 400 milliseconds so the reveal reads as "opening up" rather than a jump cut. A fixed caption under the drawing region updates with the slider: at level 1, "One name. That is all you have to remember."; at level 2, "The name was really three things."; at level 3, "And those were really eight things. The name hid all of them for you."</p>
+<p><strong>Colors.</strong> Purple #9966FF for the named block, blue #4C97FF for the middle layer, green #0FBD8C for the machine steps, matching the four-powers infographic so the color meanings stay consistent across the book. Background #FFFFFF, caption text #333333 at 16 pixels.</p>
+<p>Implementation: p5.js with a p5.dom slider, checkbox, and button. Canvas width follows the container width; when the container is narrower than 500 pixels the block labels shrink to 12-pixel text and the eight machine-step blocks wrap to two rows.</p>
+</details>
+<h2 id="algorithms-a-plan-somebody-else-could-follow">Algorithms: A Plan Somebody Else Could Follow<a class="headerlink" href="#algorithms-a-plan-somebody-else-could-follow" title="Permanent link">&para;</a></h2>
+<p>You now have three powers: cutting a problem up, spotting repeats, and naming
+things. Those powers give you a pile of small steps. The fourth power is
+about putting those steps in order.</p>
+<p>An <strong>algorithm</strong> is a list of steps, in order, that solves a problem and
+always finishes.</p>
+<p>That definition has three parts, and all three matter:</p>
+<ul>
+<li><strong>A list of steps.</strong> Not a feeling, not a wish. Actual steps.</li>
+<li><strong>In order.</strong> Socks before shoes. Pen down before moving.</li>
+<li><strong>Always finishes.</strong> An algorithm that never ends is broken.</li>
+</ul>
+<p>A recipe is an algorithm. Directions to the library are an algorithm. Long
+division is an algorithm. You have followed hundreds of them.</p>
+<h3 id="a-worked-example-the-sandwich-algorithm">A Worked Example: The Sandwich Algorithm<a class="headerlink" href="#a-worked-example-the-sandwich-algorithm" title="Permanent link">&para;</a></h3>
+<p>Here is a famous classroom challenge. Write the steps for making a peanut
+butter sandwich. Then have somebody follow your steps <em>exactly</em>, with no
+guessing allowed.</p>
+<p>A first try usually looks like this:</p>
+<ol>
+<li>Get the bread.</li>
+<li>Put peanut butter on it.</li>
+<li>Eat.</li>
+</ol>
+<p>Now watch what a very literal follower does with that. They pick up the whole
+loaf, still in the bag. They set the jar of peanut butter, lid on, on top of
+the bag. Then they try to eat the whole thing.</p>
+<p>They did nothing wrong. Your steps really did say that.</p>
+<p>The fixed version is longer and much less exciting:</p>
+<ol>
+<li>Open the bread bag.</li>
+<li>Take out two slices of bread.</li>
+<li>Lay both slices flat on the plate.</li>
+<li>Open the peanut butter jar.</li>
+<li>Put the knife into the jar and scoop out one spoonful.</li>
+<li>Spread the peanut butter across the top of one slice.</li>
+<li>Put the second slice on top, peanut butter side down.</li>
+<li>Stop.</li>
+</ol>
+<p>Notice step 8. "Stop" seems silly to write. But remember the third part of
+the definition: an algorithm has to finish. Computers really do need to be
+told when they are done.</p>
+<p>Compare the two lists:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>First try</th>
+<th>Fixed version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of steps</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Guessing needed</td>
+<td>A lot</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Would a computer get it right?</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Is it more fun to write?</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>The fixed version is worse to write and better to run. That trade shows up
+all through programming.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">The Computer Is Not Being Difficult</p>
+<p><img alt="Cody holding a warning sign" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+When your program does something silly, it is not broken and it is not
+being mean. It did exactly what your steps said. Read your steps again and
+look for the one that means something different from what you pictured.</p>
+</div>
+<h3 id="precise-instructions">Precise Instructions<a class="headerlink" href="#precise-instructions" title="Permanent link">&para;</a></h3>
+<p>The sandwich example shows why programmers care so much about <strong>precise
+instructions</strong>. A precise instruction is one that can only be understood one
+way.</p>
+<p>Look at the difference:</p>
+<table>
+<thead>
+<tr>
+<th>Fuzzy instruction</th>
+<th>Precise instruction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Move a little</td>
+<td>Move 10 steps</td>
+</tr>
+<tr>
+<td>Turn</td>
+<td>Turn right 90 degrees</td>
+</tr>
+<tr>
+<td>Make it big</td>
+<td>Set size to 200 percent</td>
+</tr>
+<tr>
+<td>Wait a moment</td>
+<td>Wait 1 second</td>
+</tr>
+<tr>
+<td>Go up</td>
+<td>Change y by 50</td>
+</tr>
+</tbody>
+</table>
+<p>Every precise instruction on the right does two things the fuzzy one does
+not. It says <strong>how much</strong>, and it says <strong>which direction</strong>. Those two
+questions catch most fuzzy instructions.</p>
+<p>This is one reason Scratch is a good first language. A block like <code class="b">move (10)
+steps</code> has a hole in it, and the hole <em>makes</em> you put in a number. The
+language itself pushes you toward being precise.</p>
+<p>Here is a preview of what precise instructions look like as real Scratch
+blocks. You will build this exact stack in Chapter 4. You do not need to
+understand it yet, only to notice that every block carries a number:</p>
+<pre class="blocks">
+when green flag clicked
+pen down
+move (100) steps
+turn right (90) degrees
+move (100) steps
+</pre>
+
+<h3 id="ambiguity-in-instructions">Ambiguity in Instructions<a class="headerlink" href="#ambiguity-in-instructions" title="Permanent link">&para;</a></h3>
+<p><strong>Ambiguity</strong> means an instruction can be understood in more than one way.
+Ambiguous instructions are the enemy of algorithms.</p>
+<p>Read this instruction: <em>"Draw a line from the dot."</em></p>
+<p>How long? Which direction? A person would ask. A computer will not ask. It
+will pick something, or it will stop with an error, and neither one is what
+you wanted.</p>
+<p>Ambiguity hides in ordinary words. Watch for these:</p>
+<ul>
+<li><strong>"It"</strong> — Draw it bigger. Bigger than what? Which one is "it"?</li>
+<li><strong>"Around"</strong> — Turn around. Halfway around, or all the way?</li>
+<li><strong>"Fast"</strong> — How fast? Fast compared to what?</li>
+<li><strong>"A few"</strong> — Three? Five? Twenty?</li>
+</ul>
+<p>The test for ambiguity is simple. Hand your instruction to somebody who
+cannot see what you are picturing. If they can follow it in a way you did not
+intend, it is ambiguous. Fix it by adding a number, a direction, or a name.</p>
+<h2 id="step-by-step-thinking">Step-by-Step Thinking<a class="headerlink" href="#step-by-step-thinking" title="Permanent link">&para;</a></h2>
+<p><strong>Step-by-step thinking</strong> means following an algorithm one line at a time and
+keeping track of what has changed after each line.</p>
+<p>Programmers call this <strong>tracing</strong>. It is the single most useful debugging
+skill in this book, and it is also the slowest, most patient thing you will
+be asked to do. That is on purpose. Computers run one instruction at a time,
+so to understand a computer you have to think one instruction at a time.</p>
+<p>Here is how tracing works. You need to know two things about the turtle
+before you can trace it:</p>
+<ul>
+<li>Its <strong>position</strong>: where it is on the stage.</li>
+<li>Its <strong>heading</strong>: which way its nose is pointing.</li>
+</ul>
+<p>Every motion instruction changes one of those two. Moving changes the
+position. Turning changes the heading. Nothing else does.</p>
+<h3 id="a-worked-example-tracing-four-instructions">A Worked Example: Tracing Four Instructions<a class="headerlink" href="#a-worked-example-tracing-four-instructions" title="Permanent link">&para;</a></h3>
+<p>The turtle starts in the middle of the stage, at position (0, 0), facing
+right. Here is the algorithm:</p>
+<ol>
+<li>Move 100 steps.</li>
+<li>Turn right 90 degrees.</li>
+<li>Move 100 steps.</li>
+<li>Turn right 90 degrees.</li>
+</ol>
+<p>Let us go one line at a time and write down what is true after each one.</p>
+<p><strong>Start.</strong> Position (0, 0). Heading: right.</p>
+<p><strong>After line 1.</strong> The turtle moved 100 steps in the direction it was facing,
+which was right. Position (100, 0). Heading: still right, because moving
+never changes heading.</p>
+<p><strong>After line 2.</strong> The turtle turned right 90 degrees. It was facing right, so
+now it faces down. Position (100, 0), unchanged, because turning never
+changes position.</p>
+<p><strong>After line 3.</strong> It moved 100 steps in the direction it was now facing,
+which was down. Position (100, -100). Heading: still down.</p>
+<p><strong>After line 4.</strong> It turned right again. It was facing down, so now it faces
+left. Position (100, -100).</p>
+<p>Now put the whole trace in one table. You already worked out every row above,
+so this table is only here to show the pattern:</p>
+<table>
+<thead>
+<tr>
+<th>After</th>
+<th>Position</th>
+<th>Heading</th>
+<th>What changed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start</td>
+<td>(0, 0)</td>
+<td>right</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Line 1</td>
+<td>(100, 0)</td>
+<td>right</td>
+<td>position</td>
+</tr>
+<tr>
+<td>Line 2</td>
+<td>(100, 0)</td>
+<td>down</td>
+<td>heading</td>
+</tr>
+<tr>
+<td>Line 3</td>
+<td>(100, -100)</td>
+<td>down</td>
+<td>position</td>
+</tr>
+<tr>
+<td>Line 4</td>
+<td>(100, -100)</td>
+<td>left</td>
+<td>heading</td>
+</tr>
+</tbody>
+</table>
+<p>Look down the "What changed" column. It goes position, heading, position,
+heading. That is a pattern, and you now know what patterns mean: this
+algorithm is really one pair of steps, repeating. That is exactly what
+Chapter 5 will turn into a loop.</p>
+<p>Tracing feels slow the first few times. Do it anyway. When a program does the
+wrong thing, tracing is how you find the exact line where your picture of the
+program and the real program stopped agreeing.</p>
+<h4 id="diagram-step-by-step-trace-walker">Diagram: Step-by-Step Trace Walker<a class="headerlink" href="#diagram-step-by-step-trace-walker" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/trace-walker/main.html" width="100%" height="522px" scrolling="no"></iframe>
+<p><a href="../../sims/trace-walker/main.html">Run Step-by-Step Trace Walker Fullscreen</a></p>
+<details>
+<summary>Step-by-Step Trace Walker</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> trace-walker<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified</p>
+<p>A MicroSim that runs a short instruction list one line at a time so the student can predict each result before revealing it.</p>
+<p><strong>Learning objective (Bloom: Analyze):</strong> Given a short list of motion instructions and a starting position and heading, the student can predict the turtle's position and heading after each instruction.</p>
+<p><strong>Layout.</strong> Responsive canvas, default 800 x 520 pixels. Three regions: a stage region on the left (about 55% width) showing a coordinate grid, an instruction-list region on the right (about 45% width), and a control row across the bottom.</p>
+<p><strong>Stage region.</strong> A grid with the origin at the center, x from -240 to 240 and y from -180 to 180, gridlines every 20 units in #E0E0E0 and axes in #999999 with tick labels every 100 units. A turtle marker is drawn as a small green triangle whose point shows the current heading. A trail of the path travelled so far is drawn in teal #0FBD8C at 3 pixels wide. A readout at the top of the stage always shows "Position: (x, y)  Heading: right / down / left / up".</p>
+<p><strong>Instruction-list region.</strong> The four instructions listed as rows: "move 100 steps", "turn right 90 degrees", "move 100 steps", "turn right 90 degrees". The instruction about to run is highlighted with a yellow #FFAB19 background. Instructions already run are shown at 50% opacity. Each completed row gains a small right-hand label showing what changed: "position" or "heading".</p>
+<p><strong>Controls.</strong></p>
+<ul>
+<li>A "Next step" button that runs exactly one instruction and animates the turtle to its new state over 500 milliseconds.</li>
+<li>A "Predict" toggle, default on. While on, clicking "Next step" first shows a prompt above the stage — "Where will the turtle be after this line?" — with two answer buttons, "Position changes" and "Heading changes". The student must choose one before the step animates, and the sim shows a brief "Yes!" or "Not this time — moving changes position, turning changes heading." message. This is what makes the sim a learning tool rather than an animation.</li>
+<li>A "Reset" button returning the turtle to (0, 0) facing right and clearing the trail.</li>
+<li>A dropdown labeled "Program" offering two lists: "Two sides of a square" (the four instructions above) and "A whole square" (eight instructions), so the sim can be revisited after Chapter 4.</li>
+</ul>
+<p><strong>Behavior.</strong> After the final instruction, a caption reads "Done. The turtle drew two sides and is facing left." and the "Next step" button is disabled until Reset is pressed. The sim never runs the whole program at once; single-stepping is the entire point.</p>
+<p>Implementation: p5.js with p5.dom controls, responsive canvas sized to the container width, grid scale recomputed in windowResized() so the whole coordinate range stays visible on a tablet.</p>
+</details>
+<h2 id="algorithm-design">Algorithm Design<a class="headerlink" href="#algorithm-design" title="Permanent link">&para;</a></h2>
+<p><strong>Algorithm design</strong> is the work of inventing an algorithm, not just
+following one.</p>
+<p>Following a recipe is easy compared to writing one. When you design an
+algorithm you have to make choices that nobody has made for you: where to
+start, what order to use, what to do when something goes wrong, and when to
+stop.</p>
+<p>Good algorithm design follows five moves. You already know the first three,
+because they are the powers from the start of this chapter.</p>
+<ol>
+<li><strong>Understand the goal.</strong> Say exactly what "done" looks like.</li>
+<li><strong>Decompose.</strong> Cut the goal into pieces small enough to be single steps.</li>
+<li><strong>Find patterns.</strong> Look for pieces that repeat.</li>
+<li><strong>Order the steps.</strong> Decide what has to happen before what.</li>
+<li><strong>Check for finishing.</strong> Make sure the steps run out.</li>
+</ol>
+<h3 id="a-worked-example-designing-the-square-algorithm">A Worked Example: Designing the Square Algorithm<a class="headerlink" href="#a-worked-example-designing-the-square-algorithm" title="Permanent link">&para;</a></h3>
+<p>Let us design one from nothing.</p>
+<p><strong>Move 1 — Understand the goal.</strong> "Draw a square" is fuzzy. Precise version:
+"Draw a shape with four straight sides that are all 100 steps long, with four
+square corners, ending where it started and facing the way it started."</p>
+<p>That last part about ending where it started is not decoration. It is what
+makes a square closed instead of a bent line.</p>
+<p><strong>Move 2 — Decompose.</strong> From the decomposition section: a square is four
+sides and four corners. One side is "pen down, move 100 steps." One corner is
+"turn right 90 degrees."</p>
+<p><strong>Move 3 — Find patterns.</strong> Side, corner, side, corner, side, corner, side,
+corner. One pair, four times.</p>
+<p><strong>Move 4 — Order the steps.</strong> Here is where a real choice appears. Does the
+pen go down before the first move, or after? It has to be before. If you move
+first, the first side does not get drawn and you get a three-sided shape with
+a gap. Order is not a detail. Order is the algorithm.</p>
+<p><strong>Move 5 — Check for finishing.</strong> Four corners at 90 degrees each is 360
+degrees of turning, which is one full circle. That is why the turtle ends up
+facing the way it started. The steps run out after eight instructions, so the
+algorithm finishes.</p>
+<p>Here is the finished design, written in plain words:</p>
+<ol>
+<li>Put the pen down.</li>
+<li>Do this four times: move 100 steps, then turn right 90 degrees.</li>
+<li>Stop.</li>
+</ol>
+<p>Three lines. That is what all four powers working together looks like.</p>
+<h4 id="diagram-algorithm-design-flowchart">Diagram: Algorithm Design Flowchart<a class="headerlink" href="#diagram-algorithm-design-flowchart" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/algorithm-design-flow/main.html" width="100%" height="702px" scrolling="no"></iframe>
+<p><a href="../../sims/algorithm-design-flow/main.html">Run Algorithm Design Flowchart Fullscreen</a></p>
+<details>
+<summary>Algorithm Design Flowchart</summary>
+<p>Type: workflow-diagram
+<strong>sim-id:</strong> algorithm-design-flow<br/>
+<strong>Library:</strong> Mermaid<br/>
+<strong>Status:</strong> Specified</p>
+<p>A clickable Mermaid flowchart of the five moves of algorithm design, where clicking any box explains that move using the square-drawing example the student just read.</p>
+<p><strong>Learning objective (Bloom: Apply):</strong> Given a new drawing problem, the student can name the five moves of algorithm design in order and say what they would do at each move.</p>
+<p><strong>Chart.</strong> A top-to-bottom Mermaid flowchart with these nodes and edges:</p>
+<ul>
+<li>A["1. Understand the goal"] --&gt; B["2. Decompose into pieces"]</li>
+<li>B --&gt; C["3. Find the patterns"]</li>
+<li>C --&gt; D["4. Put the steps in order"]</li>
+<li>D --&gt; E{"5. Does it finish?"}</li>
+<li>E -- "yes" --&gt; F["Your algorithm is ready"]</li>
+<li>E -- "no" --&gt; B</li>
+</ul>
+<p>The loop-back edge from the diamond to node B is the important part of this chart: it shows that when an algorithm does not finish, you go back and break the problem down again rather than starting over from nothing.</p>
+<p><strong>Click behavior (REQUIRED — this chart must not be a static image).</strong> Every node carries a Mermaid <code>click</code> directive calling a JavaScript function <code>showMove(id)</code> that fills an infobox panel below the chart. The infobox shows the move's name, one sentence of what the move means, and one sentence of what that move looked like for the square:</p>
+<ul>
+<li>A: "Say exactly what done looks like." Square: "Four sides of 100 steps, four square corners, ending where it started."</li>
+<li>B: "Cut it into pieces small enough to be one instruction." Square: "A side is pen-down-and-move. A corner is turn-right-90."</li>
+<li>C: "Look for pieces that repeat." Square: "Side and corner repeat four times."</li>
+<li>D: "Decide what has to happen before what." Square: "Pen down must come before the first move, or the first side is missing."</li>
+<li>E: "Make sure the steps run out." Square: "Eight instructions, then it stops."</li>
+<li>F: "You can now build it in Scratch." Square: "Three lines of plain words became eight blocks."</li>
+</ul>
+<p><strong>Styling.</strong> Node fills follow the book palette: A and F in #9966FF, B in #4C97FF, C in #FFAB19, D in #0FBD8C, and the decision diamond E in #FFFFFF with a #333333 border. All node label text is 16 pixels. The chart container is width 100% with <code>max-width: 700px</code> and re-renders on the window resize event; on containers narrower than 480 pixels the node labels shorten to their numbers plus the first word.</p>
+<p><strong>Hover.</strong> Hovering any node raises its border to 3 pixels and shows the cursor as a pointer, so the student can tell before clicking that the boxes respond.</p>
+<p>Implementation: Mermaid initialized with <code>securityLevel: 'loose'</code> so click directives run, plus a plain HTML infobox div styled to match the book's admonition panels.</p>
+</details>
+<h2 id="planning-before-coding">Planning Before Coding<a class="headerlink" href="#planning-before-coding" title="Permanent link">&para;</a></h2>
+<p><strong>Planning before coding</strong> means writing your algorithm down before you touch
+the computer.</p>
+<p>This feels backwards. The computer is right there. Why not just start
+dragging blocks and see what happens?</p>
+<p>Because "see what happens" is a slow way to find out what you wanted. If you
+do not know what the program is supposed to do, you cannot tell whether it is
+working. You will end up with a screen full of blocks and no idea which one
+is wrong.</p>
+<p>Planning is cheap. Fixing is expensive. Compare the two ways of working:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Start dragging right away</th>
+<th>Plan first</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First five minutes</td>
+<td>Blocks on the screen</td>
+<td>A list on paper</td>
+</tr>
+<tr>
+<td>When something breaks</td>
+<td>"Which block is wrong?"</td>
+<td>"Which step of my plan is wrong?"</td>
+</tr>
+<tr>
+<td>Changing your mind</td>
+<td>Drag blocks around</td>
+<td>Cross out a line</td>
+</tr>
+<tr>
+<td>Explaining it to a friend</td>
+<td>Point at the screen and hope</td>
+<td>Read them the list</td>
+</tr>
+</tbody>
+</table>
+<p>Your plan does not have to be fancy. Any of these count as a plan:</p>
+<ul>
+<li>A numbered list in your notebook.</li>
+<li>A drawing of the shape with arrows for the turtle's path.</li>
+<li>Telling a partner your steps out loud while they write them down.</li>
+</ul>
+<p>The plan for the square was three lines long and took less than a minute. It
+saved every minute after that.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Stuck on the Plan? That Is the Right Kind of Stuck</p>
+<p><img alt="Cody being encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+If you cannot write the plan, the problem is not you. It means the problem
+is still too big. Cut it into smaller pieces and try to plan just the
+first piece. One step at a time!</p>
+</div>
+<h2 id="judging-a-solution">Judging a Solution<a class="headerlink" href="#judging-a-solution" title="Permanent link">&para;</a></h2>
+<p>Most problems have more than one solution that works. Once you can get a
+program working at all, the next question is whether it is a <em>good</em> program.
+Programmers judge solutions using three ideas.</p>
+<h3 id="efficiency-of-a-solution">Efficiency of a Solution<a class="headerlink" href="#efficiency-of-a-solution" title="Permanent link">&para;</a></h3>
+<p><strong>Efficiency</strong> means getting the job done without wasted work.</p>
+<p>Here are two algorithms that draw the exact same square:</p>
+<p><strong>Algorithm A:</strong></p>
+<ol>
+<li>Move 100. Turn right 90.</li>
+<li>Move 100. Turn right 90.</li>
+<li>Move 100. Turn right 90.</li>
+<li>Move 100. Turn right 90.</li>
+</ol>
+<p><strong>Algorithm B:</strong></p>
+<ol>
+<li>Do this four times: move 100, turn right 90.</li>
+</ol>
+<p>Both draw the same square. The picture on the stage is identical. So why is B
+better?</p>
+<ul>
+<li>B is shorter, so there is less to read.</li>
+<li>B has fewer places to make a mistake. In A you could easily type 10 instead
+  of 100 in one of the four lines and get a lopsided shape.</li>
+<li>B is easier to change. To make a five-sided shape you change one number in
+  B. In A you have to add lines and change every angle.</li>
+</ul>
+<p>That third reason is the biggest one. Efficient does not just mean "fast." In
+this book, efficient mostly means <strong>fewer things you have to keep correct</strong>.</p>
+<p>Be careful of one trap. The shortest program is not always the best program.
+A program nobody can read, including you next week, is not efficient no
+matter how few blocks it has.</p>
+<h3 id="reusability">Reusability<a class="headerlink" href="#reusability" title="Permanent link">&para;</a></h3>
+<p><strong>Reusability</strong> means building something once and using it many times.</p>
+<p>Say you have made a set of steps that draws a square. Now you want to draw a
+row of five squares. You have two choices:</p>
+<ul>
+<li>Copy the square steps five times. That is 40 instructions, and if you find
+  a mistake you have to fix it in five places.</li>
+<li>Give the steps a name — <code class="b">draw square</code> — and use the name five times.
+  That is five instructions plus one definition, and a mistake gets fixed in
+  one place.</li>
+</ul>
+<p>The second choice is reusable. Notice that it is abstraction being used for a
+new reason. Earlier, naming a group of steps made your thinking smaller. Here,
+the same name lets you use the steps over and over.</p>
+<p>Reusable pieces have three habits in common:</p>
+<ol>
+<li><strong>They do one job.</strong> A block called <code>draw square</code> should draw a square and
+   nothing else. It should not also move the turtle somewhere random.</li>
+<li><strong>They have a clear name.</strong> <code>draw square</code> tells you what you get.
+   <code>block1</code> does not.</li>
+<li><strong>They clean up after themselves.</strong> A good drawing block leaves the turtle
+   where it can be used again.</li>
+</ol>
+<p>You will build your own reusable blocks in Chapter 9, and this is why the
+course description calls that the most important skill in the whole book.</p>
+<h3 id="generalization">Generalization<a class="headerlink" href="#generalization" title="Permanent link">&para;</a></h3>
+<p><strong>Generalization</strong> means changing something that solves one problem so that
+it solves a whole family of problems.</p>
+<p>Your <code>draw square</code> block draws squares of exactly 100 steps. That is useful
+until you want a small square. Then it is stuck.</p>
+<p>Now imagine the block had a hole in it, like the built-in blocks do, so you
+could say <code>draw square (50)</code> or <code>draw square (200)</code>. One block, every size of
+square. That is generalization: you found the part that was locked to one
+answer, and you turned it into an input.</p>
+<p>Generalization usually happens in this order:</p>
+<ol>
+<li>Solve one specific problem. (A square of 100.)</li>
+<li>Solve it again with a different number. (A square of 50.)</li>
+<li>Notice the two solutions are the same except for one number.</li>
+<li>Replace that number with an input.</li>
+</ol>
+<p>You cannot skip to step 4. You have to build the specific thing first.
+Chapter 10 is entirely about this move.</p>
+<h2 id="iterative-design">Iterative Design<a class="headerlink" href="#iterative-design" title="Permanent link">&para;</a></h2>
+<p><strong>Iterative design</strong> means building a little, testing it, fixing it, and
+going around again.</p>
+<p>"Iterate" means to repeat. Programs are almost never built in one straight
+line from empty to finished. They are built in small circles:</p>
+<ol>
+<li>Build a small piece.</li>
+<li>Run it.</li>
+<li>See what is wrong.</li>
+<li>Change one thing.</li>
+<li>Go back to step 2.</li>
+</ol>
+<p>The best programmers do not write correct programs on the first try. They
+write small wrong programs quickly and fix them fast. That is a completely
+different skill from being right the first time, and it is far more useful.</p>
+<p>The most common mistake beginners make is building the whole thing before
+running any of it. Then something is wrong and there are 40 blocks it could
+be. Build four blocks, run them, then build four more. When something breaks,
+you know it was in the last four.</p>
+<p>Chapter 12 is about the testing and debugging half of this loop.</p>
+<h2 id="computational-artifacts">Computational Artifacts<a class="headerlink" href="#computational-artifacts" title="Permanent link">&para;</a></h2>
+<p>The last word in this chapter is the name for the thing you actually make.</p>
+<p>A <strong>computational artifact</strong> is anything a person creates with a computer:
+a program, a drawing made by a program, an animation, a game, a chart.</p>
+<p>Two things make an artifact different from a doodle.</p>
+<ul>
+<li><strong>Somebody built it on purpose.</strong> Artifacts are designed, not accidents.</li>
+<li><strong>It came from a plan.</strong> Behind every artifact is an algorithm.</li>
+</ul>
+<p>Every project in this book is a computational artifact. When you finish a
+drawing of a spiral in Chapter 6, you have made two things at once: the
+picture on the stage, and the program that made the picture. The program is
+the more valuable one. The picture only draws itself once. The program draws
+it a thousand times, at any size, forever.</p>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>Here is everything in this chapter in one place. Every one of these was
+explained above, so use this as a checklist, not as a first read.</p>
+<table>
+<thead>
+<tr>
+<th>Idea</th>
+<th>In one sentence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computational thinking</td>
+<td>Solving a problem clearly enough that a computer could follow you</td>
+</tr>
+<tr>
+<td>Problem solving</td>
+<td>Understand, plan, do, look back</td>
+</tr>
+<tr>
+<td>Decomposition</td>
+<td>Cut a big problem into small ones</td>
+</tr>
+<tr>
+<td>Pattern recognition</td>
+<td>Notice what repeats</td>
+</tr>
+<tr>
+<td>Abstraction</td>
+<td>Name a group of steps and hide the details</td>
+</tr>
+<tr>
+<td>Algorithm</td>
+<td>Steps, in order, that finish</td>
+</tr>
+<tr>
+<td>Algorithm design</td>
+<td>Inventing the algorithm instead of following one</td>
+</tr>
+<tr>
+<td>Precise instructions</td>
+<td>Say how much and which direction</td>
+</tr>
+<tr>
+<td>Ambiguity</td>
+<td>An instruction that can be read two ways</td>
+</tr>
+<tr>
+<td>Step-by-step thinking</td>
+<td>Follow one line at a time and track what changed</td>
+</tr>
+<tr>
+<td>Planning before coding</td>
+<td>Write the plan before you drag blocks</td>
+</tr>
+<tr>
+<td>Efficiency</td>
+<td>Fewer things you have to keep correct</td>
+</tr>
+<tr>
+<td>Reusability</td>
+<td>Build it once, use it many times</td>
+</tr>
+<tr>
+<td>Generalization</td>
+<td>Turn a locked-in number into an input</td>
+</tr>
+<tr>
+<td>Iterative design</td>
+<td>Build a little, test, fix, repeat</td>
+</tr>
+<tr>
+<td>Computational artifact</td>
+<td>The thing you made with a computer</td>
+</tr>
+</tbody>
+</table>
+<p>You have not written a single line of code. You have still learned the part
+of programming that takes longest to get good at. Everything from here is
+practice.</p>
+<p>In Chapter 2 you will meet the Scratch editor itself: the stage, the sprites,
+the block palette, and the green flag that starts everything. Then in Chapter
+3 you will build your first script and watch these ideas turn into blocks.</p>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You Finished Chapter 1!</p>
+<p><img alt="Cody celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+You just learned the four powers that every programmer uses: breaking
+problems apart, spotting patterns, naming things, and putting steps in
+order. Next we open Scratch and find out where all the blocks live. One
+step at a time!</p>
+</div>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -1552,10 +3907,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/scratchblocks@3.7.1/build/scratchblocks.min.js"></script>
+      
+        <script src="../../js/scratchblocks-init.js"></script>
       
     
   </body>

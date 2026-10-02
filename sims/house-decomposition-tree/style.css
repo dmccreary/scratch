@@ -1,0 +1,149 @@
+/* Decomposing a House Drawing - layout
+ * The page is a fixed-height column: title, network, legend, infobox.
+ * The network takes whatever height is left, so the total never changes
+ * and the iframe never needs to scroll.
+ * Total height must match the CANVAS_HEIGHT comment in the .js file. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 600px;               /* CANVAS_HEIGHT */
+    background-color: aliceblue;
+    border: 1px solid silver;
+    overflow: hidden;
+}
+
+.title {
+    flex: 0 0 auto;
+    padding: 9px 10px 2px 10px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+#network {
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+}
+
+/* ---------- legend (HTML, not inside the canvas) ---------- */
+.legend {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid silver;
+}
+
+/* each legend phrase stays together; lines break only between phrases */
+.legend-item {
+    display: inline-block;
+    margin: 0 5px;
+    white-space: nowrap;
+}
+
+.swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px 0 0;
+    border-radius: 4px;
+    vertical-align: -2px;
+}
+
+.purple { background-color: #9966FF; }
+.blue   { background-color: #4C97FF; }
+.orange { background-color: #FFAB19; }
+.green  { background-color: #0FBD8C; }
+
+/* ---------- infobox ---------- */
+.infobox {
+    flex: 0 0 112px;
+    padding: 8px 14px;
+    background-color: #F5F5F5;
+    border-top: 1px solid silver;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.35;
+    overflow: hidden;
+}
+
+.info-prompt {
+    margin-top: 32px;
+    text-align: center;
+    font-style: italic;
+    color: dimgray;
+}
+
+.info-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.info-heading .chip {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    border-radius: 4px;
+    vertical-align: -1px;
+}
+
+.answer {
+    display: inline-block;
+    padding: 0 9px;
+    margin-left: 4px;
+    border-radius: 11px;
+    color: white;
+    font-weight: bold;
+}
+
+.answer.yes    { background-color: #0A8A66; }   /* darker pen green, readable with white text */
+.answer.notyet { background-color: #B36B00; }   /* darker control orange */
+
+.info-path {
+    margin-top: 3px;
+    font-size: 14px;
+    color: dimgray;
+}
+
+/* tooltip shown when the mouse rests on a box */
+div.vis-tooltip {
+    position: absolute;
+    padding: 5px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    background-color: white;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+@media (max-width: 520px) {
+    .title   { font-size: 19px; }
+    .legend  { font-size: 13px; padding: 4px 8px; }
+    .legend-item { white-space: normal; }
+    .infobox { font-size: 14px; padding: 6px 10px; }
+    .info-heading { font-size: 16px; }
+    .info-path { display: none; }          /* not enough room on a phone */
+    .info-prompt { margin-top: 20px; }
+}

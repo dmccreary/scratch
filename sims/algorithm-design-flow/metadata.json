@@ -1,0 +1,79 @@
+{
+  "title": "Algorithm Design Flowchart",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Computational Thinking",
+    "Algorithm Design",
+    "Flowcharts",
+    "Scratch"
+  ],
+  "description": "Clickable top-to-bottom flowchart of the five moves of algorithm design: understand the goal, decompose, find patterns, order the steps and check that it finishes. Clicking a box explains the move and shows what it looked like for the square-drawing example. A loop from the decision diamond back to move 2 shows what to do when an algorithm does not finish.",
+  "date": "2026-10-01",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/scratch/sims/algorithm-design-flow/",
+  "canvasHeight": 700,
+  "educational": {
+    "gradeLevel": [
+      "3",
+      "4",
+      "5"
+    ],
+    "subjectArea": "Computer Science",
+    "topic": "Algorithm design",
+    "learningObjectives": [
+      "Given a new drawing problem, name the five moves of algorithm design in order and say what you would do at each move."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Decomposition, pattern recognition and abstraction",
+      "An algorithm is a list of steps, in order, that always finishes"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Mermaid",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "Mermaid 10 (CDN)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "clickable node",
+        "label": "Flowchart boxes",
+        "description": "Click a box to show what that move means and what it looked like for the square"
+      }
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Clickable worked example used as a checklist for a new problem",
+    "keyQuestions": [
+      "What are the five moves, in order?",
+      "What would you do at each move to design a triangle-drawing algorithm?",
+      "Where does the 'no' arrow go, and why does it not go back to move 1?"
+    ],
+    "commonMisconceptions": [
+      "If an algorithm does not work you have to start over from nothing. You only go back and break the problem down again.",
+      "The order of the steps is a small detail. Order is the algorithm."
+    ],
+    "assessmentOpportunities": [
+      "Ask the student to name the five moves in order with the chart covered.",
+      "Give a new drawing problem and have the student write one sentence per move."
+    ]
+  },
+  "chapter": "01-computational-thinking-foundations"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Decomposing a House Drawing using vis-network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <script src="house-decomposition-tree.js"></script>
+</head>
+<body>
+    <main>
+        <div class="title">Decomposing a House Drawing</div>
+        <!-- vis-network replaces everything inside #network, so the legend
+             and infobox are siblings of it, never children -->
+        <div id="network" aria-label="Tree diagram that breaks the job Draw a house into smaller and smaller steps"></div>
+        <div class="legend">
+            <span class="legend-item"><span class="swatch purple"></span>Purple = the whole job.</span>
+            <span class="legend-item"><span class="swatch blue"></span><span class="swatch orange"></span>Blue and orange = still too big.</span>
+            <span class="legend-item"><span class="swatch green"></span>Green = small enough to be one Scratch block.</span>
+        </div>
+        <div id="infobox" class="infobox" aria-live="polite">
+            <div class="info-prompt">Click any box to find out if it is small enough to program.</div>
+        </div>
+    </main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
+</body>
+</html>
